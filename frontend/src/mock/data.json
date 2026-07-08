@@ -1,0 +1,5943 @@
+{
+  "overview": {
+    "host_count": 20,
+    "online_rate": 100.0,
+    "alert_count": 171,
+    "avg_cpu": 43.2,
+    "avg_mem": 66159.65,
+    "time_range_start": "2026-07-01 00:00:00",
+    "time_range_end": "2026-08-11 15:55:00",
+    "data_source": "local"
+  },
+  "hosts": [
+    {
+      "hostid": "host001",
+      "hostname": "server-001.hismartlab.cn",
+      "owner": "陈三",
+      "model": "Dell R750",
+      "location1": "A机房",
+      "location2": "机柜12",
+      "status": "online",
+      "cpu_usage": 22.09,
+      "mem_used": 86977.0
+    },
+    {
+      "hostid": "host002",
+      "hostname": "server-002.hismartlab.cn",
+      "owner": "钱七",
+      "model": "HP DL388",
+      "location1": "B机房",
+      "location2": "机柜03",
+      "status": "online",
+      "cpu_usage": 55.85,
+      "mem_used": 4528.0
+    },
+    {
+      "hostid": "host003",
+      "hostname": "server-003.hismartlab.cn",
+      "owner": "林四",
+      "model": "Dell R750",
+      "location1": "E机房",
+      "location2": "机柜02",
+      "status": "online",
+      "cpu_usage": 7.44,
+      "mem_used": 40716.0
+    },
+    {
+      "hostid": "host004",
+      "hostname": "server-004.hismartlab.cn",
+      "owner": "王二",
+      "model": "Huawei 2288H",
+      "location1": "A机房",
+      "location2": "机柜01",
+      "status": "online",
+      "cpu_usage": 44.37,
+      "mem_used": 21654.0
+    },
+    {
+      "hostid": "host005",
+      "hostname": "server-005.hismartlab.cn",
+      "owner": "李四",
+      "model": "HP DL388",
+      "location1": "B机房",
+      "location2": "机柜09",
+      "status": "online",
+      "cpu_usage": 24.38,
+      "mem_used": 31742.0
+    },
+    {
+      "hostid": "host006",
+      "hostname": "server-006.hismartlab.cn",
+      "owner": "王二",
+      "model": "Dell R740",
+      "location1": "E机房",
+      "location2": "机柜04",
+      "status": "online",
+      "cpu_usage": 69.57,
+      "mem_used": 32370.0
+    },
+    {
+      "hostid": "host007",
+      "hostname": "server-007.hismartlab.cn",
+      "owner": "林四",
+      "model": "Huawei 2288H",
+      "location1": "B机房",
+      "location2": "机柜08",
+      "status": "online",
+      "cpu_usage": 44.85,
+      "mem_used": 7765.0
+    },
+    {
+      "hostid": "host008",
+      "hostname": "server-008.hismartlab.cn",
+      "owner": "王二",
+      "model": "Lenovo SR650",
+      "location1": "A机房",
+      "location2": "机柜03",
+      "status": "online",
+      "cpu_usage": 49.19,
+      "mem_used": 65751.0
+    },
+    {
+      "hostid": "host009",
+      "hostname": "server-009.hismartlab.cn",
+      "owner": "林四",
+      "model": "Huawei 2288H",
+      "location1": "C机房",
+      "location2": "机柜05",
+      "status": "online",
+      "cpu_usage": 33.91,
+      "mem_used": 99767.0
+    },
+    {
+      "hostid": "host010",
+      "hostname": "server-010.hismartlab.cn",
+      "owner": "王五",
+      "model": "HP DL388",
+      "location1": "C机房",
+      "location2": "机柜02",
+      "status": "online",
+      "cpu_usage": 19.81,
+      "mem_used": 104715.0
+    },
+    {
+      "hostid": "host011",
+      "hostname": "server-011.hismartlab.cn",
+      "owner": "李四",
+      "model": "Huawei 2288H",
+      "location1": "A机房",
+      "location2": "机柜06",
+      "status": "online",
+      "cpu_usage": 29.87,
+      "mem_used": 36459.0
+    },
+    {
+      "hostid": "host012",
+      "hostname": "server-012.hismartlab.cn",
+      "owner": "刘六",
+      "model": "Lenovo SR860",
+      "location1": "E机房",
+      "location2": "机柜05",
+      "status": "online",
+      "cpu_usage": 59.65,
+      "mem_used": 11924.0
+    },
+    {
+      "hostid": "host013",
+      "hostname": "server-013.hismartlab.cn",
+      "owner": "黄五",
+      "model": "Dell R740",
+      "location1": "D机房",
+      "location2": "机柜09",
+      "status": "online",
+      "cpu_usage": 34.08,
+      "mem_used": 59426.0
+    },
+    {
+      "hostid": "host014",
+      "hostname": "server-014.hismartlab.cn",
+      "owner": "李四",
+      "model": "Huawei 2288H",
+      "location1": "A机房",
+      "location2": "机柜09",
+      "status": "online",
+      "cpu_usage": 57.12,
+      "mem_used": 43699.0
+    },
+    {
+      "hostid": "host015",
+      "hostname": "server-015.hismartlab.cn",
+      "owner": "钱七",
+      "model": "Lenovo SR860",
+      "location1": "E机房",
+      "location2": "机柜04",
+      "status": "online",
+      "cpu_usage": 33.11,
+      "mem_used": 82406.0
+    },
+    {
+      "hostid": "host016",
+      "hostname": "server-016.hismartlab.cn",
+      "owner": "林四",
+      "model": "Dell R750",
+      "location1": "A机房",
+      "location2": "机柜11",
+      "status": "online",
+      "cpu_usage": 16.79,
+      "mem_used": 97753.0
+    },
+    {
+      "hostid": "host017",
+      "hostname": "server-017.hismartlab.cn",
+      "owner": "赵六",
+      "model": "Lenovo SR650",
+      "location1": "A机房",
+      "location2": "机柜04",
+      "status": "online",
+      "cpu_usage": 62.72,
+      "mem_used": 61027.0
+    },
+    {
+      "hostid": "host018",
+      "hostname": "server-018.hismartlab.cn",
+      "owner": "刘六",
+      "model": "Dell R750",
+      "location1": "D机房",
+      "location2": "机柜05",
+      "status": "online",
+      "cpu_usage": 41.72,
+      "mem_used": 35941.0
+    },
+    {
+      "hostid": "host019",
+      "hostname": "server-019.hismartlab.cn",
+      "owner": "吴十",
+      "model": "Lenovo SR860",
+      "location1": "B机房",
+      "location2": "机柜06",
+      "status": "online",
+      "cpu_usage": 58.85,
+      "mem_used": 51137.0
+    },
+    {
+      "hostid": "host020",
+      "hostname": "server-020.hismartlab.cn",
+      "owner": "孙八",
+      "model": "HP DL388",
+      "location1": "C机房",
+      "location2": "机柜12",
+      "status": "online",
+      "cpu_usage": 25.98,
+      "mem_used": 73493.0
+    }
+  ],
+  "distribution": {
+    "by_location": [
+      {
+        "name": "A机房",
+        "value": 7
+      },
+      {
+        "name": "B机房",
+        "value": 4
+      },
+      {
+        "name": "E机房",
+        "value": 4
+      },
+      {
+        "name": "C机房",
+        "value": 3
+      },
+      {
+        "name": "D机房",
+        "value": 2
+      }
+    ],
+    "by_model": [
+      {
+        "name": "Huawei 2288H",
+        "value": 5
+      },
+      {
+        "name": "Dell R750",
+        "value": 4
+      },
+      {
+        "name": "HP DL388",
+        "value": 4
+      },
+      {
+        "name": "Lenovo SR860",
+        "value": 3
+      },
+      {
+        "name": "Dell R740",
+        "value": 2
+      },
+      {
+        "name": "Lenovo SR650",
+        "value": 2
+      }
+    ],
+    "by_owner": [
+      {
+        "name": "林四",
+        "value": 4
+      },
+      {
+        "name": "王二",
+        "value": 3
+      },
+      {
+        "name": "李四",
+        "value": 3
+      },
+      {
+        "name": "钱七",
+        "value": 2
+      },
+      {
+        "name": "刘六",
+        "value": 2
+      },
+      {
+        "name": "陈三",
+        "value": 1
+      },
+      {
+        "name": "王五",
+        "value": 1
+      },
+      {
+        "name": "黄五",
+        "value": 1
+      },
+      {
+        "name": "赵六",
+        "value": 1
+      },
+      {
+        "name": "吴十",
+        "value": 1
+      },
+      {
+        "name": "孙八",
+        "value": 1
+      }
+    ]
+  },
+  "trend": {
+    "points": [
+      {
+        "hour": "2026-07-01 00:00",
+        "cpu_avg": 38.78,
+        "mem_avg": 60036.7
+      },
+      {
+        "hour": "2026-07-01 01:00",
+        "cpu_avg": 38.08,
+        "mem_avg": 75228.6
+      },
+      {
+        "hour": "2026-07-01 02:00",
+        "cpu_avg": 48.8,
+        "mem_avg": 65133.1
+      },
+      {
+        "hour": "2026-07-01 03:00",
+        "cpu_avg": 51.61,
+        "mem_avg": 61272.6
+      },
+      {
+        "hour": "2026-07-01 04:00",
+        "cpu_avg": 40.14,
+        "mem_avg": 75446.0
+      },
+      {
+        "hour": "2026-07-01 05:00",
+        "cpu_avg": 42.91,
+        "mem_avg": 64548.9
+      },
+      {
+        "hour": "2026-07-01 06:00",
+        "cpu_avg": 47.06,
+        "mem_avg": 59592.3
+      },
+      {
+        "hour": "2026-07-01 07:00",
+        "cpu_avg": 45.43,
+        "mem_avg": 61359.7
+      },
+      {
+        "hour": "2026-07-01 08:00",
+        "cpu_avg": 42.66,
+        "mem_avg": 59990.55
+      },
+      {
+        "hour": "2026-07-01 09:00",
+        "cpu_avg": 46.01,
+        "mem_avg": 60393.25
+      },
+      {
+        "hour": "2026-07-01 10:00",
+        "cpu_avg": 47.48,
+        "mem_avg": 68585.05
+      },
+      {
+        "hour": "2026-07-01 11:00",
+        "cpu_avg": 38.8,
+        "mem_avg": 84837.25
+      },
+      {
+        "hour": "2026-07-01 12:00",
+        "cpu_avg": 50.06,
+        "mem_avg": 71215.75
+      },
+      {
+        "hour": "2026-07-01 13:00",
+        "cpu_avg": 52.83,
+        "mem_avg": 60135.9
+      },
+      {
+        "hour": "2026-07-01 14:00",
+        "cpu_avg": 35.25,
+        "mem_avg": 63890.85
+      },
+      {
+        "hour": "2026-07-01 15:00",
+        "cpu_avg": 29.96,
+        "mem_avg": 45730.6
+      },
+      {
+        "hour": "2026-07-01 16:00",
+        "cpu_avg": 38.26,
+        "mem_avg": 62794.7
+      },
+      {
+        "hour": "2026-07-01 17:00",
+        "cpu_avg": 46.52,
+        "mem_avg": 60105.05
+      },
+      {
+        "hour": "2026-07-01 18:00",
+        "cpu_avg": 44.4,
+        "mem_avg": 59577.5
+      },
+      {
+        "hour": "2026-07-01 19:00",
+        "cpu_avg": 43.39,
+        "mem_avg": 73125.05
+      },
+      {
+        "hour": "2026-07-01 20:00",
+        "cpu_avg": 46.38,
+        "mem_avg": 79765.7
+      },
+      {
+        "hour": "2026-07-01 21:00",
+        "cpu_avg": 41.22,
+        "mem_avg": 73621.3
+      },
+      {
+        "hour": "2026-07-01 22:00",
+        "cpu_avg": 48.4,
+        "mem_avg": 60185.55
+      },
+      {
+        "hour": "2026-07-01 23:00",
+        "cpu_avg": 44.79,
+        "mem_avg": 70517.5
+      },
+      {
+        "hour": "2026-07-02 00:00",
+        "cpu_avg": 44.66,
+        "mem_avg": 62318.75
+      },
+      {
+        "hour": "2026-07-02 01:00",
+        "cpu_avg": 48.89,
+        "mem_avg": 58868.0
+      },
+      {
+        "hour": "2026-07-02 02:00",
+        "cpu_avg": 31.63,
+        "mem_avg": 67095.55
+      },
+      {
+        "hour": "2026-07-02 03:00",
+        "cpu_avg": 49.34,
+        "mem_avg": 56323.2
+      },
+      {
+        "hour": "2026-07-02 04:00",
+        "cpu_avg": 45.73,
+        "mem_avg": 67909.0
+      },
+      {
+        "hour": "2026-07-02 05:00",
+        "cpu_avg": 32.94,
+        "mem_avg": 61162.8
+      },
+      {
+        "hour": "2026-07-02 06:00",
+        "cpu_avg": 39.99,
+        "mem_avg": 57847.95
+      },
+      {
+        "hour": "2026-07-02 07:00",
+        "cpu_avg": 44.53,
+        "mem_avg": 79336.75
+      },
+      {
+        "hour": "2026-07-02 08:00",
+        "cpu_avg": 41.18,
+        "mem_avg": 78723.65
+      },
+      {
+        "hour": "2026-07-02 09:00",
+        "cpu_avg": 31.91,
+        "mem_avg": 75993.7
+      },
+      {
+        "hour": "2026-07-02 10:00",
+        "cpu_avg": 37.0,
+        "mem_avg": 54463.9
+      },
+      {
+        "hour": "2026-07-02 11:00",
+        "cpu_avg": 41.79,
+        "mem_avg": 66039.95
+      },
+      {
+        "hour": "2026-07-02 12:00",
+        "cpu_avg": 44.33,
+        "mem_avg": 79068.1
+      },
+      {
+        "hour": "2026-07-02 13:00",
+        "cpu_avg": 45.02,
+        "mem_avg": 64003.15
+      },
+      {
+        "hour": "2026-07-02 14:00",
+        "cpu_avg": 43.55,
+        "mem_avg": 68518.2
+      },
+      {
+        "hour": "2026-07-02 15:00",
+        "cpu_avg": 41.04,
+        "mem_avg": 70875.95
+      },
+      {
+        "hour": "2026-07-02 16:00",
+        "cpu_avg": 42.12,
+        "mem_avg": 64505.85
+      },
+      {
+        "hour": "2026-07-02 17:00",
+        "cpu_avg": 46.01,
+        "mem_avg": 80452.7
+      },
+      {
+        "hour": "2026-07-02 18:00",
+        "cpu_avg": 37.69,
+        "mem_avg": 50329.1
+      },
+      {
+        "hour": "2026-07-02 19:00",
+        "cpu_avg": 45.02,
+        "mem_avg": 62683.85
+      },
+      {
+        "hour": "2026-07-02 20:00",
+        "cpu_avg": 42.69,
+        "mem_avg": 62400.75
+      },
+      {
+        "hour": "2026-07-02 21:00",
+        "cpu_avg": 46.35,
+        "mem_avg": 59508.4
+      },
+      {
+        "hour": "2026-07-02 22:00",
+        "cpu_avg": 45.42,
+        "mem_avg": 73935.65
+      },
+      {
+        "hour": "2026-07-02 23:00",
+        "cpu_avg": 42.33,
+        "mem_avg": 70844.55
+      },
+      {
+        "hour": "2026-07-03 00:00",
+        "cpu_avg": 50.11,
+        "mem_avg": 82668.35
+      },
+      {
+        "hour": "2026-07-03 01:00",
+        "cpu_avg": 51.42,
+        "mem_avg": 74672.5
+      },
+      {
+        "hour": "2026-07-03 02:00",
+        "cpu_avg": 41.84,
+        "mem_avg": 55244.4
+      },
+      {
+        "hour": "2026-07-03 03:00",
+        "cpu_avg": 46.11,
+        "mem_avg": 64910.55
+      },
+      {
+        "hour": "2026-07-03 04:00",
+        "cpu_avg": 47.03,
+        "mem_avg": 54999.5
+      },
+      {
+        "hour": "2026-07-03 05:00",
+        "cpu_avg": 42.58,
+        "mem_avg": 68572.3
+      },
+      {
+        "hour": "2026-07-03 06:00",
+        "cpu_avg": 46.87,
+        "mem_avg": 50637.85
+      },
+      {
+        "hour": "2026-07-03 07:00",
+        "cpu_avg": 37.61,
+        "mem_avg": 62056.7
+      },
+      {
+        "hour": "2026-07-03 08:00",
+        "cpu_avg": 40.16,
+        "mem_avg": 70708.4
+      },
+      {
+        "hour": "2026-07-03 09:00",
+        "cpu_avg": 35.7,
+        "mem_avg": 68288.75
+      },
+      {
+        "hour": "2026-07-03 10:00",
+        "cpu_avg": 42.11,
+        "mem_avg": 59880.55
+      },
+      {
+        "hour": "2026-07-03 11:00",
+        "cpu_avg": 47.48,
+        "mem_avg": 51523.85
+      },
+      {
+        "hour": "2026-07-03 12:00",
+        "cpu_avg": 44.89,
+        "mem_avg": 57793.25
+      },
+      {
+        "hour": "2026-07-03 13:00",
+        "cpu_avg": 39.56,
+        "mem_avg": 80089.65
+      },
+      {
+        "hour": "2026-07-03 14:00",
+        "cpu_avg": 47.57,
+        "mem_avg": 65687.55
+      },
+      {
+        "hour": "2026-07-03 15:00",
+        "cpu_avg": 44.82,
+        "mem_avg": 59119.45
+      },
+      {
+        "hour": "2026-07-03 16:00",
+        "cpu_avg": 44.59,
+        "mem_avg": 66350.85
+      },
+      {
+        "hour": "2026-07-03 17:00",
+        "cpu_avg": 40.4,
+        "mem_avg": 43564.85
+      },
+      {
+        "hour": "2026-07-03 18:00",
+        "cpu_avg": 40.99,
+        "mem_avg": 61885.7
+      },
+      {
+        "hour": "2026-07-03 19:00",
+        "cpu_avg": 42.46,
+        "mem_avg": 77075.25
+      },
+      {
+        "hour": "2026-07-03 20:00",
+        "cpu_avg": 47.98,
+        "mem_avg": 66450.7
+      },
+      {
+        "hour": "2026-07-03 21:00",
+        "cpu_avg": 48.18,
+        "mem_avg": 70381.4
+      },
+      {
+        "hour": "2026-07-03 22:00",
+        "cpu_avg": 39.35,
+        "mem_avg": 71481.25
+      },
+      {
+        "hour": "2026-07-03 23:00",
+        "cpu_avg": 47.03,
+        "mem_avg": 72282.7
+      },
+      {
+        "hour": "2026-07-04 00:00",
+        "cpu_avg": 43.5,
+        "mem_avg": 54844.0
+      },
+      {
+        "hour": "2026-07-04 01:00",
+        "cpu_avg": 52.57,
+        "mem_avg": 58914.55
+      },
+      {
+        "hour": "2026-07-04 02:00",
+        "cpu_avg": 42.64,
+        "mem_avg": 73970.65
+      },
+      {
+        "hour": "2026-07-04 03:00",
+        "cpu_avg": 37.72,
+        "mem_avg": 51148.3
+      },
+      {
+        "hour": "2026-07-04 04:00",
+        "cpu_avg": 38.61,
+        "mem_avg": 57953.6
+      },
+      {
+        "hour": "2026-07-04 05:00",
+        "cpu_avg": 43.78,
+        "mem_avg": 66674.75
+      },
+      {
+        "hour": "2026-07-04 06:00",
+        "cpu_avg": 39.11,
+        "mem_avg": 60980.9
+      },
+      {
+        "hour": "2026-07-04 07:00",
+        "cpu_avg": 41.06,
+        "mem_avg": 61234.15
+      },
+      {
+        "hour": "2026-07-04 08:00",
+        "cpu_avg": 39.06,
+        "mem_avg": 67290.75
+      },
+      {
+        "hour": "2026-07-04 09:00",
+        "cpu_avg": 47.8,
+        "mem_avg": 65089.65
+      },
+      {
+        "hour": "2026-07-04 10:00",
+        "cpu_avg": 43.85,
+        "mem_avg": 74429.4
+      },
+      {
+        "hour": "2026-07-04 11:00",
+        "cpu_avg": 39.3,
+        "mem_avg": 82428.35
+      },
+      {
+        "hour": "2026-07-04 12:00",
+        "cpu_avg": 50.93,
+        "mem_avg": 78784.7
+      },
+      {
+        "hour": "2026-07-04 13:00",
+        "cpu_avg": 47.15,
+        "mem_avg": 69217.1
+      },
+      {
+        "hour": "2026-07-04 14:00",
+        "cpu_avg": 40.87,
+        "mem_avg": 54697.65
+      },
+      {
+        "hour": "2026-07-04 15:00",
+        "cpu_avg": 40.42,
+        "mem_avg": 56179.0
+      },
+      {
+        "hour": "2026-07-04 16:00",
+        "cpu_avg": 44.15,
+        "mem_avg": 67601.75
+      },
+      {
+        "hour": "2026-07-04 17:00",
+        "cpu_avg": 46.3,
+        "mem_avg": 65215.4
+      },
+      {
+        "hour": "2026-07-04 18:00",
+        "cpu_avg": 51.92,
+        "mem_avg": 67156.55
+      },
+      {
+        "hour": "2026-07-04 19:00",
+        "cpu_avg": 37.64,
+        "mem_avg": 76525.5
+      },
+      {
+        "hour": "2026-07-04 20:00",
+        "cpu_avg": 33.91,
+        "mem_avg": 60885.6
+      },
+      {
+        "hour": "2026-07-04 21:00",
+        "cpu_avg": 37.42,
+        "mem_avg": 76274.45
+      },
+      {
+        "hour": "2026-07-04 22:00",
+        "cpu_avg": 37.21,
+        "mem_avg": 63572.1
+      },
+      {
+        "hour": "2026-07-04 23:00",
+        "cpu_avg": 39.1,
+        "mem_avg": 62781.45
+      },
+      {
+        "hour": "2026-07-05 00:00",
+        "cpu_avg": 38.55,
+        "mem_avg": 61663.6
+      },
+      {
+        "hour": "2026-07-05 01:00",
+        "cpu_avg": 43.88,
+        "mem_avg": 54511.35
+      },
+      {
+        "hour": "2026-07-05 02:00",
+        "cpu_avg": 45.97,
+        "mem_avg": 65632.3
+      },
+      {
+        "hour": "2026-07-05 03:00",
+        "cpu_avg": 40.58,
+        "mem_avg": 53583.25
+      },
+      {
+        "hour": "2026-07-05 04:00",
+        "cpu_avg": 41.14,
+        "mem_avg": 73479.65
+      },
+      {
+        "hour": "2026-07-05 05:00",
+        "cpu_avg": 50.03,
+        "mem_avg": 66346.4
+      },
+      {
+        "hour": "2026-07-05 06:00",
+        "cpu_avg": 42.17,
+        "mem_avg": 66886.7
+      },
+      {
+        "hour": "2026-07-05 07:00",
+        "cpu_avg": 48.71,
+        "mem_avg": 76535.45
+      },
+      {
+        "hour": "2026-07-05 08:00",
+        "cpu_avg": 35.6,
+        "mem_avg": 63856.0
+      },
+      {
+        "hour": "2026-07-05 09:00",
+        "cpu_avg": 41.76,
+        "mem_avg": 69834.0
+      },
+      {
+        "hour": "2026-07-05 10:00",
+        "cpu_avg": 31.3,
+        "mem_avg": 71023.15
+      },
+      {
+        "hour": "2026-07-05 11:00",
+        "cpu_avg": 45.19,
+        "mem_avg": 60496.05
+      },
+      {
+        "hour": "2026-07-05 12:00",
+        "cpu_avg": 44.06,
+        "mem_avg": 68147.2
+      },
+      {
+        "hour": "2026-07-05 13:00",
+        "cpu_avg": 50.29,
+        "mem_avg": 62402.5
+      },
+      {
+        "hour": "2026-07-05 14:00",
+        "cpu_avg": 47.59,
+        "mem_avg": 56896.85
+      },
+      {
+        "hour": "2026-07-05 15:00",
+        "cpu_avg": 44.24,
+        "mem_avg": 59708.85
+      },
+      {
+        "hour": "2026-07-05 16:00",
+        "cpu_avg": 43.79,
+        "mem_avg": 54907.3
+      },
+      {
+        "hour": "2026-07-05 17:00",
+        "cpu_avg": 44.1,
+        "mem_avg": 71218.65
+      },
+      {
+        "hour": "2026-07-05 18:00",
+        "cpu_avg": 43.23,
+        "mem_avg": 64600.05
+      },
+      {
+        "hour": "2026-07-05 19:00",
+        "cpu_avg": 44.76,
+        "mem_avg": 75409.95
+      },
+      {
+        "hour": "2026-07-05 20:00",
+        "cpu_avg": 42.66,
+        "mem_avg": 57643.0
+      },
+      {
+        "hour": "2026-07-05 21:00",
+        "cpu_avg": 44.81,
+        "mem_avg": 63021.7
+      },
+      {
+        "hour": "2026-07-05 22:00",
+        "cpu_avg": 44.76,
+        "mem_avg": 67652.3
+      },
+      {
+        "hour": "2026-07-05 23:00",
+        "cpu_avg": 39.74,
+        "mem_avg": 73240.55
+      },
+      {
+        "hour": "2026-07-06 00:00",
+        "cpu_avg": 47.43,
+        "mem_avg": 51619.5
+      },
+      {
+        "hour": "2026-07-06 01:00",
+        "cpu_avg": 33.91,
+        "mem_avg": 63057.85
+      },
+      {
+        "hour": "2026-07-06 02:00",
+        "cpu_avg": 48.47,
+        "mem_avg": 68254.0
+      },
+      {
+        "hour": "2026-07-06 03:00",
+        "cpu_avg": 31.93,
+        "mem_avg": 62578.7
+      },
+      {
+        "hour": "2026-07-06 04:00",
+        "cpu_avg": 43.48,
+        "mem_avg": 80049.1
+      },
+      {
+        "hour": "2026-07-06 05:00",
+        "cpu_avg": 40.35,
+        "mem_avg": 66782.75
+      },
+      {
+        "hour": "2026-07-06 06:00",
+        "cpu_avg": 39.02,
+        "mem_avg": 68378.85
+      },
+      {
+        "hour": "2026-07-06 07:00",
+        "cpu_avg": 46.72,
+        "mem_avg": 66633.2
+      },
+      {
+        "hour": "2026-07-06 08:00",
+        "cpu_avg": 52.9,
+        "mem_avg": 62800.45
+      },
+      {
+        "hour": "2026-07-06 09:00",
+        "cpu_avg": 37.81,
+        "mem_avg": 70210.05
+      },
+      {
+        "hour": "2026-07-06 10:00",
+        "cpu_avg": 45.14,
+        "mem_avg": 82482.3
+      },
+      {
+        "hour": "2026-07-06 11:00",
+        "cpu_avg": 44.15,
+        "mem_avg": 49500.8
+      },
+      {
+        "hour": "2026-07-06 12:00",
+        "cpu_avg": 42.66,
+        "mem_avg": 82387.7
+      },
+      {
+        "hour": "2026-07-06 13:00",
+        "cpu_avg": 42.01,
+        "mem_avg": 57052.8
+      },
+      {
+        "hour": "2026-07-06 14:00",
+        "cpu_avg": 35.23,
+        "mem_avg": 66998.45
+      },
+      {
+        "hour": "2026-07-06 15:00",
+        "cpu_avg": 43.93,
+        "mem_avg": 70489.4
+      },
+      {
+        "hour": "2026-07-06 16:00",
+        "cpu_avg": 55.21,
+        "mem_avg": 69367.1
+      },
+      {
+        "hour": "2026-07-06 17:00",
+        "cpu_avg": 51.67,
+        "mem_avg": 56209.9
+      },
+      {
+        "hour": "2026-07-06 18:00",
+        "cpu_avg": 48.95,
+        "mem_avg": 59329.95
+      },
+      {
+        "hour": "2026-07-06 19:00",
+        "cpu_avg": 39.94,
+        "mem_avg": 68068.65
+      },
+      {
+        "hour": "2026-07-06 20:00",
+        "cpu_avg": 38.19,
+        "mem_avg": 70139.65
+      },
+      {
+        "hour": "2026-07-06 21:00",
+        "cpu_avg": 44.06,
+        "mem_avg": 84429.95
+      },
+      {
+        "hour": "2026-07-06 22:00",
+        "cpu_avg": 52.21,
+        "mem_avg": 68181.35
+      },
+      {
+        "hour": "2026-07-06 23:00",
+        "cpu_avg": 43.67,
+        "mem_avg": 74225.7
+      },
+      {
+        "hour": "2026-07-07 00:00",
+        "cpu_avg": 37.02,
+        "mem_avg": 66354.95
+      },
+      {
+        "hour": "2026-07-07 01:00",
+        "cpu_avg": 44.12,
+        "mem_avg": 67178.55
+      },
+      {
+        "hour": "2026-07-07 02:00",
+        "cpu_avg": 40.79,
+        "mem_avg": 75738.65
+      },
+      {
+        "hour": "2026-07-07 03:00",
+        "cpu_avg": 41.43,
+        "mem_avg": 47342.2
+      },
+      {
+        "hour": "2026-07-07 04:00",
+        "cpu_avg": 39.78,
+        "mem_avg": 70249.6
+      },
+      {
+        "hour": "2026-07-07 05:00",
+        "cpu_avg": 43.42,
+        "mem_avg": 70632.25
+      },
+      {
+        "hour": "2026-07-07 06:00",
+        "cpu_avg": 44.48,
+        "mem_avg": 56553.4
+      },
+      {
+        "hour": "2026-07-07 07:00",
+        "cpu_avg": 40.74,
+        "mem_avg": 74730.15
+      },
+      {
+        "hour": "2026-07-07 08:00",
+        "cpu_avg": 45.3,
+        "mem_avg": 64890.55
+      },
+      {
+        "hour": "2026-07-07 09:00",
+        "cpu_avg": 41.57,
+        "mem_avg": 74414.5
+      },
+      {
+        "hour": "2026-07-07 10:00",
+        "cpu_avg": 36.74,
+        "mem_avg": 69873.4
+      },
+      {
+        "hour": "2026-07-07 11:00",
+        "cpu_avg": 45.8,
+        "mem_avg": 65431.4
+      },
+      {
+        "hour": "2026-07-07 12:00",
+        "cpu_avg": 39.76,
+        "mem_avg": 80438.45
+      },
+      {
+        "hour": "2026-07-07 13:00",
+        "cpu_avg": 46.8,
+        "mem_avg": 55312.35
+      },
+      {
+        "hour": "2026-07-07 14:00",
+        "cpu_avg": 40.77,
+        "mem_avg": 80647.55
+      },
+      {
+        "hour": "2026-07-07 15:00",
+        "cpu_avg": 43.56,
+        "mem_avg": 72030.95
+      },
+      {
+        "hour": "2026-07-07 16:00",
+        "cpu_avg": 55.03,
+        "mem_avg": 65358.85
+      },
+      {
+        "hour": "2026-07-07 17:00",
+        "cpu_avg": 37.07,
+        "mem_avg": 67634.7
+      },
+      {
+        "hour": "2026-07-07 18:00",
+        "cpu_avg": 44.53,
+        "mem_avg": 85400.9
+      },
+      {
+        "hour": "2026-07-07 19:00",
+        "cpu_avg": 45.73,
+        "mem_avg": 53055.8
+      },
+      {
+        "hour": "2026-07-07 20:00",
+        "cpu_avg": 47.95,
+        "mem_avg": 91735.35
+      },
+      {
+        "hour": "2026-07-07 21:00",
+        "cpu_avg": 47.6,
+        "mem_avg": 59419.45
+      },
+      {
+        "hour": "2026-07-07 22:00",
+        "cpu_avg": 46.79,
+        "mem_avg": 69534.6
+      },
+      {
+        "hour": "2026-07-07 23:00",
+        "cpu_avg": 39.57,
+        "mem_avg": 52462.5
+      }
+    ],
+    "hostid": null
+  },
+  "heatmap": {
+    "hosts": [
+      "host001",
+      "host002",
+      "host003",
+      "host004",
+      "host005",
+      "host006",
+      "host007",
+      "host008",
+      "host009",
+      "host010",
+      "host011",
+      "host012",
+      "host013",
+      "host014",
+      "host015",
+      "host016",
+      "host017",
+      "host018",
+      "host019",
+      "host020"
+    ],
+    "hours": [
+      "2026-07-07 00:00",
+      "2026-07-07 01:00",
+      "2026-07-07 02:00",
+      "2026-07-07 03:00",
+      "2026-07-07 04:00",
+      "2026-07-07 05:00",
+      "2026-07-07 06:00",
+      "2026-07-07 07:00",
+      "2026-07-07 08:00",
+      "2026-07-07 09:00",
+      "2026-07-07 10:00",
+      "2026-07-07 11:00",
+      "2026-07-07 12:00",
+      "2026-07-07 13:00",
+      "2026-07-07 14:00",
+      "2026-07-07 15:00",
+      "2026-07-07 16:00",
+      "2026-07-07 17:00",
+      "2026-07-07 18:00",
+      "2026-07-07 19:00",
+      "2026-07-07 20:00",
+      "2026-07-07 21:00",
+      "2026-07-07 22:00",
+      "2026-07-07 23:00"
+    ],
+    "cells": [
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 00:00",
+        "value": 5.29
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 01:00",
+        "value": 53.23
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 02:00",
+        "value": 35.47
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 03:00",
+        "value": 20.58
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 04:00",
+        "value": 21.14
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 05:00",
+        "value": 55.1
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 06:00",
+        "value": 58.79
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 07:00",
+        "value": 74.25
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 08:00",
+        "value": 28.97
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 09:00",
+        "value": 36.81
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 10:00",
+        "value": 21.52
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 11:00",
+        "value": 28.45
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 12:00",
+        "value": 29.54
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 13:00",
+        "value": 47.3
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 14:00",
+        "value": 26.36
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 15:00",
+        "value": 16.15
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 16:00",
+        "value": 37.44
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 17:00",
+        "value": 37.87
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 18:00",
+        "value": 70.91
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 19:00",
+        "value": 63.35
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 20:00",
+        "value": 18.26
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 21:00",
+        "value": 70.26
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 22:00",
+        "value": 61.54
+      },
+      {
+        "hostid": "host001",
+        "hour": "2026-07-07 23:00",
+        "value": 22.09
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 00:00",
+        "value": 79.67
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 01:00",
+        "value": 58.25
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 02:00",
+        "value": 58.42
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 03:00",
+        "value": 21.77
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 04:00",
+        "value": 33.36
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 05:00",
+        "value": 78.63
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 06:00",
+        "value": 77.55
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 07:00",
+        "value": 41.19
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 08:00",
+        "value": 70.12
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 09:00",
+        "value": 57.49
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 10:00",
+        "value": 17.59
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 11:00",
+        "value": 66.41
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 12:00",
+        "value": 54.08
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 13:00",
+        "value": 58.27
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 14:00",
+        "value": 15.28
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 15:00",
+        "value": 16.9
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 16:00",
+        "value": 59.3
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 17:00",
+        "value": 30.9
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 18:00",
+        "value": 71.58
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 19:00",
+        "value": 32.31
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 20:00",
+        "value": 52.51
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 21:00",
+        "value": 73.65
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 22:00",
+        "value": 61.44
+      },
+      {
+        "hostid": "host002",
+        "hour": "2026-07-07 23:00",
+        "value": 55.85
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 00:00",
+        "value": 49.34
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 01:00",
+        "value": 9.16
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 02:00",
+        "value": 34.21
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 03:00",
+        "value": 67.11
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 04:00",
+        "value": 57.16
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 05:00",
+        "value": 6.71
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 06:00",
+        "value": 56.9
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 07:00",
+        "value": 79.62
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 08:00",
+        "value": 9.65
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 09:00",
+        "value": 18.34
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 10:00",
+        "value": 18.09
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 11:00",
+        "value": 15.88
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 12:00",
+        "value": 19.17
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 13:00",
+        "value": 23.27
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 14:00",
+        "value": 38.26
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 15:00",
+        "value": 70.98
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 16:00",
+        "value": 33.45
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 17:00",
+        "value": 24.79
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 18:00",
+        "value": 21.65
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 19:00",
+        "value": 21.42
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 20:00",
+        "value": 75.78
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 21:00",
+        "value": 36.03
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 22:00",
+        "value": 74.49
+      },
+      {
+        "hostid": "host003",
+        "hour": "2026-07-07 23:00",
+        "value": 7.44
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 00:00",
+        "value": 45.91
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 01:00",
+        "value": 71.75
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 02:00",
+        "value": 56.94
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 03:00",
+        "value": 44.01
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 04:00",
+        "value": 19.82
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 05:00",
+        "value": 20.57
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 06:00",
+        "value": 39.13
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 07:00",
+        "value": 10.59
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 08:00",
+        "value": 38.6
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 09:00",
+        "value": 66.07
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 10:00",
+        "value": 79.62
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 11:00",
+        "value": 38.48
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 12:00",
+        "value": 61.86
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 13:00",
+        "value": 76.85
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 14:00",
+        "value": 47.21
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 15:00",
+        "value": 71.5
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 16:00",
+        "value": 73.47
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 17:00",
+        "value": 41.81
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 18:00",
+        "value": 78.55
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 19:00",
+        "value": 9.95
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 20:00",
+        "value": 34.57
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 21:00",
+        "value": 55.55
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 22:00",
+        "value": 56.79
+      },
+      {
+        "hostid": "host004",
+        "hour": "2026-07-07 23:00",
+        "value": 44.37
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 00:00",
+        "value": 19.93
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 01:00",
+        "value": 42.18
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 02:00",
+        "value": 75.06
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 03:00",
+        "value": 68.53
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 04:00",
+        "value": 42.4
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 05:00",
+        "value": 56.74
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 06:00",
+        "value": 15.66
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 07:00",
+        "value": 77.25
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 08:00",
+        "value": 53.45
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 09:00",
+        "value": 16.88
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 10:00",
+        "value": 41.9
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 11:00",
+        "value": 68.56
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 12:00",
+        "value": 19.52
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 13:00",
+        "value": 29.81
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 14:00",
+        "value": 57.2
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 15:00",
+        "value": 23.86
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 16:00",
+        "value": 68.31
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 17:00",
+        "value": 64.66
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 18:00",
+        "value": 67.12
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 19:00",
+        "value": 30.65
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 20:00",
+        "value": 27.99
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 21:00",
+        "value": 51.94
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 22:00",
+        "value": 14.58
+      },
+      {
+        "hostid": "host005",
+        "hour": "2026-07-07 23:00",
+        "value": 24.38
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 00:00",
+        "value": 8.07
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 01:00",
+        "value": 41.81
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 02:00",
+        "value": 63.63
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 03:00",
+        "value": 25.68
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 04:00",
+        "value": 35.64
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 05:00",
+        "value": 52.54
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 06:00",
+        "value": 48.13
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 07:00",
+        "value": 14.94
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 08:00",
+        "value": 72.45
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 09:00",
+        "value": 27.58
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 10:00",
+        "value": 6.29
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 11:00",
+        "value": 44.52
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 12:00",
+        "value": 58.74
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 13:00",
+        "value": 66.73
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 14:00",
+        "value": 30.61
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 15:00",
+        "value": 59.54
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 16:00",
+        "value": 58.31
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 17:00",
+        "value": 58.42
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 18:00",
+        "value": 50.97
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 19:00",
+        "value": 42.7
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 20:00",
+        "value": 47.67
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 21:00",
+        "value": 45.53
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 22:00",
+        "value": 61.36
+      },
+      {
+        "hostid": "host006",
+        "hour": "2026-07-07 23:00",
+        "value": 69.57
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 00:00",
+        "value": 45.21
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 01:00",
+        "value": 20.77
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 02:00",
+        "value": 22.33
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 03:00",
+        "value": 31.4
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 04:00",
+        "value": 31.85
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 05:00",
+        "value": 12.24
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 06:00",
+        "value": 27.12
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 07:00",
+        "value": 14.35
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 08:00",
+        "value": 34.02
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 09:00",
+        "value": 75.45
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 10:00",
+        "value": 78.37
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 11:00",
+        "value": 47.61
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 12:00",
+        "value": 29.52
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 13:00",
+        "value": 65.7
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 14:00",
+        "value": 23.98
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 15:00",
+        "value": 15.79
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 16:00",
+        "value": 47.55
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 17:00",
+        "value": 54.0
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 18:00",
+        "value": 55.59
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 19:00",
+        "value": 60.49
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 20:00",
+        "value": 57.64
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 21:00",
+        "value": 28.0
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 22:00",
+        "value": 31.85
+      },
+      {
+        "hostid": "host007",
+        "hour": "2026-07-07 23:00",
+        "value": 44.85
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 00:00",
+        "value": 17.81
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 01:00",
+        "value": 42.97
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 02:00",
+        "value": 6.62
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 03:00",
+        "value": 23.61
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 04:00",
+        "value": 74.84
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 05:00",
+        "value": 74.23
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 06:00",
+        "value": 22.41
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 07:00",
+        "value": 45.75
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 08:00",
+        "value": 72.5
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 09:00",
+        "value": 27.91
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 10:00",
+        "value": 25.53
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 11:00",
+        "value": 29.43
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 12:00",
+        "value": 78.1
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 13:00",
+        "value": 11.43
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 14:00",
+        "value": 37.3
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 15:00",
+        "value": 59.32
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 16:00",
+        "value": 73.9
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 17:00",
+        "value": 22.87
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 18:00",
+        "value": 11.36
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 19:00",
+        "value": 63.74
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 20:00",
+        "value": 47.61
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 21:00",
+        "value": 53.37
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 22:00",
+        "value": 71.36
+      },
+      {
+        "hostid": "host008",
+        "hour": "2026-07-07 23:00",
+        "value": 49.19
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 00:00",
+        "value": 25.99
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 01:00",
+        "value": 27.03
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 02:00",
+        "value": 13.16
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 03:00",
+        "value": 31.72
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 04:00",
+        "value": 41.19
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 05:00",
+        "value": 55.0
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 06:00",
+        "value": 60.47
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 07:00",
+        "value": 63.17
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 08:00",
+        "value": 11.3
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 09:00",
+        "value": 44.89
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 10:00",
+        "value": 22.12
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 11:00",
+        "value": 54.25
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 12:00",
+        "value": 65.15
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 13:00",
+        "value": 70.12
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 14:00",
+        "value": 22.1
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 15:00",
+        "value": 55.31
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 16:00",
+        "value": 36.4
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 17:00",
+        "value": 39.79
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 18:00",
+        "value": 37.43
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 19:00",
+        "value": 78.8
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 20:00",
+        "value": 15.29
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 21:00",
+        "value": 56.59
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 22:00",
+        "value": 10.97
+      },
+      {
+        "hostid": "host009",
+        "hour": "2026-07-07 23:00",
+        "value": 33.91
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 00:00",
+        "value": 77.32
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 01:00",
+        "value": 43.71
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 02:00",
+        "value": 27.7
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 03:00",
+        "value": 60.28
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 04:00",
+        "value": 24.59
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 05:00",
+        "value": 64.46
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 06:00",
+        "value": 63.96
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 07:00",
+        "value": 79.07
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 08:00",
+        "value": 78.09
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 09:00",
+        "value": 10.5
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 10:00",
+        "value": 9.89
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 11:00",
+        "value": 73.51
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 12:00",
+        "value": 74.59
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 13:00",
+        "value": 21.45
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 14:00",
+        "value": 43.46
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 15:00",
+        "value": 20.24
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 16:00",
+        "value": 19.16
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 17:00",
+        "value": 57.11
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 18:00",
+        "value": 23.29
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 19:00",
+        "value": 66.43
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 20:00",
+        "value": 35.48
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 21:00",
+        "value": 79.98
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 22:00",
+        "value": 79.88
+      },
+      {
+        "hostid": "host010",
+        "hour": "2026-07-07 23:00",
+        "value": 19.81
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 00:00",
+        "value": 17.68
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 01:00",
+        "value": 5.81
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 02:00",
+        "value": 18.53
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 03:00",
+        "value": 43.05
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 04:00",
+        "value": 6.34
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 05:00",
+        "value": 36.62
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 06:00",
+        "value": 42.12
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 07:00",
+        "value": 48.78
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 08:00",
+        "value": 39.77
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 09:00",
+        "value": 13.0
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 10:00",
+        "value": 30.84
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 11:00",
+        "value": 44.35
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 12:00",
+        "value": 36.33
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 13:00",
+        "value": 65.88
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 14:00",
+        "value": 49.88
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 15:00",
+        "value": 76.26
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 16:00",
+        "value": 69.82
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 17:00",
+        "value": 15.9
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 18:00",
+        "value": 30.23
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 19:00",
+        "value": 27.76
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 20:00",
+        "value": 64.35
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 21:00",
+        "value": 60.03
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 22:00",
+        "value": 18.88
+      },
+      {
+        "hostid": "host011",
+        "hour": "2026-07-07 23:00",
+        "value": 29.87
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 00:00",
+        "value": 36.82
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 01:00",
+        "value": 66.4
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 02:00",
+        "value": 16.99
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 03:00",
+        "value": 66.44
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 04:00",
+        "value": 47.42
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 05:00",
+        "value": 77.98
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 06:00",
+        "value": 29.17
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 07:00",
+        "value": 23.39
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 08:00",
+        "value": 32.19
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 09:00",
+        "value": 59.4
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 10:00",
+        "value": 37.94
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 11:00",
+        "value": 31.04
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 12:00",
+        "value": 10.68
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 13:00",
+        "value": 11.02
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 14:00",
+        "value": 8.11
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 15:00",
+        "value": 69.82
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 16:00",
+        "value": 44.58
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 17:00",
+        "value": 75.3
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 18:00",
+        "value": 51.47
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 19:00",
+        "value": 28.38
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 20:00",
+        "value": 31.47
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 21:00",
+        "value": 15.88
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 22:00",
+        "value": 45.49
+      },
+      {
+        "hostid": "host012",
+        "hour": "2026-07-07 23:00",
+        "value": 59.65
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 00:00",
+        "value": 42.79
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 01:00",
+        "value": 39.85
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 02:00",
+        "value": 38.6
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 03:00",
+        "value": 12.42
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 04:00",
+        "value": 51.87
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 05:00",
+        "value": 38.92
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 06:00",
+        "value": 49.95
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 07:00",
+        "value": 5.16
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 08:00",
+        "value": 53.47
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 09:00",
+        "value": 55.55
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 10:00",
+        "value": 40.01
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 11:00",
+        "value": 40.81
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 12:00",
+        "value": 35.65
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 13:00",
+        "value": 18.97
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 14:00",
+        "value": 60.91
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 15:00",
+        "value": 32.8
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 16:00",
+        "value": 79.72
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 17:00",
+        "value": 10.16
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 18:00",
+        "value": 25.06
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 19:00",
+        "value": 38.13
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 20:00",
+        "value": 34.41
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 21:00",
+        "value": 16.23
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 22:00",
+        "value": 57.08
+      },
+      {
+        "hostid": "host013",
+        "hour": "2026-07-07 23:00",
+        "value": 34.08
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 00:00",
+        "value": 63.26
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 01:00",
+        "value": 67.21
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 02:00",
+        "value": 78.37
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 03:00",
+        "value": 34.66
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 04:00",
+        "value": 25.87
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 05:00",
+        "value": 50.89
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 06:00",
+        "value": 11.42
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 07:00",
+        "value": 36.2
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 08:00",
+        "value": 7.58
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 09:00",
+        "value": 42.46
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 10:00",
+        "value": 41.11
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 11:00",
+        "value": 75.58
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 12:00",
+        "value": 54.79
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 13:00",
+        "value": 23.46
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 14:00",
+        "value": 70.15
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 15:00",
+        "value": 20.46
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 16:00",
+        "value": 78.75
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 17:00",
+        "value": 64.97
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 18:00",
+        "value": 53.76
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 19:00",
+        "value": 60.88
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 20:00",
+        "value": 67.95
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 21:00",
+        "value": 63.85
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 22:00",
+        "value": 17.42
+      },
+      {
+        "hostid": "host014",
+        "hour": "2026-07-07 23:00",
+        "value": 57.12
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 00:00",
+        "value": 69.12
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 01:00",
+        "value": 49.86
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 02:00",
+        "value": 58.2
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 03:00",
+        "value": 57.77
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 04:00",
+        "value": 38.14
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 05:00",
+        "value": 19.52
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 06:00",
+        "value": 72.38
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 07:00",
+        "value": 23.46
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 08:00",
+        "value": 49.81
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 09:00",
+        "value": 41.89
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 10:00",
+        "value": 20.83
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 11:00",
+        "value": 71.17
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 12:00",
+        "value": 45.31
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 13:00",
+        "value": 60.61
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 14:00",
+        "value": 53.25
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 15:00",
+        "value": 59.63
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 16:00",
+        "value": 58.16
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 17:00",
+        "value": 50.97
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 18:00",
+        "value": 32.26
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 19:00",
+        "value": 34.55
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 20:00",
+        "value": 41.0
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 21:00",
+        "value": 45.77
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 22:00",
+        "value": 29.33
+      },
+      {
+        "hostid": "host015",
+        "hour": "2026-07-07 23:00",
+        "value": 33.11
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 00:00",
+        "value": 15.48
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 01:00",
+        "value": 42.85
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 02:00",
+        "value": 53.38
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 03:00",
+        "value": 23.21
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 04:00",
+        "value": 33.71
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 05:00",
+        "value": 50.62
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 06:00",
+        "value": 22.67
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 07:00",
+        "value": 53.4
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 08:00",
+        "value": 20.05
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 09:00",
+        "value": 72.63
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 10:00",
+        "value": 21.62
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 11:00",
+        "value": 16.67
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 12:00",
+        "value": 18.09
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 13:00",
+        "value": 74.5
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 14:00",
+        "value": 8.06
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 15:00",
+        "value": 6.89
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 16:00",
+        "value": 52.71
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 17:00",
+        "value": 41.73
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 18:00",
+        "value": 75.26
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 19:00",
+        "value": 63.01
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 20:00",
+        "value": 54.6
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 21:00",
+        "value": 79.39
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 22:00",
+        "value": 22.14
+      },
+      {
+        "hostid": "host016",
+        "hour": "2026-07-07 23:00",
+        "value": 16.79
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 00:00",
+        "value": 8.06
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 01:00",
+        "value": 66.02
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 02:00",
+        "value": 16.55
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 03:00",
+        "value": 60.93
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 04:00",
+        "value": 12.7
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 05:00",
+        "value": 14.32
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 06:00",
+        "value": 41.88
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 07:00",
+        "value": 24.57
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 08:00",
+        "value": 27.42
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 09:00",
+        "value": 34.47
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 10:00",
+        "value": 32.79
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 11:00",
+        "value": 24.92
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 12:00",
+        "value": 74.52
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 13:00",
+        "value": 50.72
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 14:00",
+        "value": 29.4
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 15:00",
+        "value": 62.82
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 16:00",
+        "value": 65.31
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 17:00",
+        "value": 5.08
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 18:00",
+        "value": 16.08
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 19:00",
+        "value": 22.29
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 20:00",
+        "value": 60.08
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 21:00",
+        "value": 20.75
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 22:00",
+        "value": 40.6
+      },
+      {
+        "hostid": "host017",
+        "hour": "2026-07-07 23:00",
+        "value": 62.72
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 00:00",
+        "value": 56.57
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 01:00",
+        "value": 36.24
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 02:00",
+        "value": 40.43
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 03:00",
+        "value": 40.53
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 04:00",
+        "value": 69.64
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 05:00",
+        "value": 24.7
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 06:00",
+        "value": 71.76
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 07:00",
+        "value": 59.4
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 08:00",
+        "value": 78.74
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 09:00",
+        "value": 53.89
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 10:00",
+        "value": 70.36
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 11:00",
+        "value": 51.63
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 12:00",
+        "value": 5.41
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 13:00",
+        "value": 65.02
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 14:00",
+        "value": 74.81
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 15:00",
+        "value": 66.43
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 16:00",
+        "value": 63.07
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 17:00",
+        "value": 19.6
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 18:00",
+        "value": 69.31
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 19:00",
+        "value": 14.85
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 20:00",
+        "value": 58.05
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 21:00",
+        "value": 39.41
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 22:00",
+        "value": 45.65
+      },
+      {
+        "hostid": "host018",
+        "hour": "2026-07-07 23:00",
+        "value": 41.72
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 00:00",
+        "value": 22.59
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 01:00",
+        "value": 43.46
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 02:00",
+        "value": 49.88
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 03:00",
+        "value": 58.26
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 04:00",
+        "value": 54.62
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 05:00",
+        "value": 32.15
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 06:00",
+        "value": 9.48
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 07:00",
+        "value": 13.97
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 08:00",
+        "value": 79.81
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 09:00",
+        "value": 67.8
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 10:00",
+        "value": 62.86
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 11:00",
+        "value": 27.11
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 12:00",
+        "value": 15.94
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 13:00",
+        "value": 49.15
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 14:00",
+        "value": 46.62
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 15:00",
+        "value": 10.03
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 16:00",
+        "value": 68.59
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 17:00",
+        "value": 12.85
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 18:00",
+        "value": 13.12
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 19:00",
+        "value": 77.26
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 20:00",
+        "value": 68.04
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 21:00",
+        "value": 9.63
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 22:00",
+        "value": 71.91
+      },
+      {
+        "hostid": "host019",
+        "hour": "2026-07-07 23:00",
+        "value": 58.85
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 00:00",
+        "value": 33.49
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 01:00",
+        "value": 53.87
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 02:00",
+        "value": 51.32
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 03:00",
+        "value": 36.58
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 04:00",
+        "value": 73.24
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 05:00",
+        "value": 46.43
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 06:00",
+        "value": 68.57
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 07:00",
+        "value": 26.3
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 08:00",
+        "value": 48.03
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 09:00",
+        "value": 8.41
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 10:00",
+        "value": 55.55
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 11:00",
+        "value": 65.67
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 12:00",
+        "value": 8.3
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 13:00",
+        "value": 45.82
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 14:00",
+        "value": 72.54
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 15:00",
+        "value": 56.47
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 16:00",
+        "value": 12.53
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 17:00",
+        "value": 12.59
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 18:00",
+        "value": 35.63
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 19:00",
+        "value": 77.67
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 20:00",
+        "value": 66.25
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 21:00",
+        "value": 50.18
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 22:00",
+        "value": 63.01
+      },
+      {
+        "hostid": "host020",
+        "hour": "2026-07-07 23:00",
+        "value": 25.98
+      }
+    ]
+  },
+  "diskTop": {
+    "top_util": [
+      {
+        "hostid": "host004",
+        "mod": "sdd_util",
+        "value": 99.79,
+        "desc": "磁盘D使用率",
+        "unit": "%"
+      },
+      {
+        "hostid": "host013",
+        "mod": "sdd_util",
+        "value": 98.09,
+        "desc": "磁盘D使用率",
+        "unit": "%"
+      },
+      {
+        "hostid": "host008",
+        "mod": "sde_util",
+        "value": 97.02,
+        "desc": "磁盘E使用率",
+        "unit": "%"
+      },
+      {
+        "hostid": "host011",
+        "mod": "sda_util",
+        "value": 96.42,
+        "desc": "磁盘A使用率",
+        "unit": "%"
+      },
+      {
+        "hostid": "host016",
+        "mod": "sdb_util",
+        "value": 96.1,
+        "desc": "磁盘B使用率",
+        "unit": "%"
+      },
+      {
+        "hostid": "host007",
+        "mod": "sdd_util",
+        "value": 96.02,
+        "desc": "磁盘D使用率",
+        "unit": "%"
+      },
+      {
+        "hostid": "host004",
+        "mod": "sda_util",
+        "value": 93.82,
+        "desc": "磁盘A使用率",
+        "unit": "%"
+      },
+      {
+        "hostid": "host007",
+        "mod": "sda_util",
+        "value": 92.52,
+        "desc": "磁盘A使用率",
+        "unit": "%"
+      },
+      {
+        "hostid": "host015",
+        "mod": "sde_util",
+        "value": 91.37,
+        "desc": "磁盘E使用率",
+        "unit": "%"
+      },
+      {
+        "hostid": "host016",
+        "mod": "sdd_util",
+        "value": 88.5,
+        "desc": "磁盘D使用率",
+        "unit": "%"
+      }
+    ],
+    "scatter": [
+      {
+        "hostid": "host016",
+        "mod": "sda_util",
+        "util": 36.04,
+        "await_ms": 17.96
+      },
+      {
+        "hostid": "host014",
+        "mod": "sda_util",
+        "util": 48.91,
+        "await_ms": 18.98
+      },
+      {
+        "hostid": "host006",
+        "mod": "sdc_util",
+        "util": 30.56,
+        "await_ms": 36.82
+      },
+      {
+        "hostid": "host017",
+        "mod": "sdc_util",
+        "util": 39.63,
+        "await_ms": 22.23
+      },
+      {
+        "hostid": "host010",
+        "mod": "sda_util",
+        "util": 46.73,
+        "await_ms": 29.3
+      },
+      {
+        "hostid": "host012",
+        "mod": "sdd_util",
+        "util": 22.27,
+        "await_ms": 39.52
+      },
+      {
+        "hostid": "host016",
+        "mod": "sdb_util",
+        "util": 96.1,
+        "await_ms": 28.46
+      },
+      {
+        "hostid": "host004",
+        "mod": "sdc_util",
+        "util": 8.37,
+        "await_ms": 19.5
+      },
+      {
+        "hostid": "host014",
+        "mod": "sde_util",
+        "util": 2.85,
+        "await_ms": 15.22
+      },
+      {
+        "hostid": "host018",
+        "mod": "sdd_util",
+        "util": 63.16,
+        "await_ms": 46.25
+      },
+      {
+        "hostid": "host003",
+        "mod": "sdd_util",
+        "util": 20.47,
+        "await_ms": 39.46
+      },
+      {
+        "hostid": "host008",
+        "mod": "sda_util",
+        "util": 55.6,
+        "await_ms": 13.28
+      },
+      {
+        "hostid": "host015",
+        "mod": "sdc_util",
+        "util": 44.68,
+        "await_ms": 37.92
+      },
+      {
+        "hostid": "host018",
+        "mod": "sdb_util",
+        "util": 75.43,
+        "await_ms": 34.14
+      },
+      {
+        "hostid": "host006",
+        "mod": "sdb_util",
+        "util": 0.46,
+        "await_ms": 37.33
+      },
+      {
+        "hostid": "host011",
+        "mod": "sdb_util",
+        "util": 68.44,
+        "await_ms": 43.83
+      },
+      {
+        "hostid": "host007",
+        "mod": "sda_util",
+        "util": 92.52,
+        "await_ms": 45.66
+      },
+      {
+        "hostid": "host017",
+        "mod": "sda_util",
+        "util": 9.72,
+        "await_ms": 37.33
+      },
+      {
+        "hostid": "host011",
+        "mod": "sdc_util",
+        "util": 55.5,
+        "await_ms": 33.76
+      },
+      {
+        "hostid": "host002",
+        "mod": "sdc_util",
+        "util": 8.64,
+        "await_ms": 14.94
+      },
+      {
+        "hostid": "host017",
+        "mod": "sde_util",
+        "util": 52.66,
+        "await_ms": 37.97
+      },
+      {
+        "hostid": "host005",
+        "mod": "sde_util",
+        "util": 26.23,
+        "await_ms": 41.24
+      },
+      {
+        "hostid": "host016",
+        "mod": "sdd_util",
+        "util": 88.5,
+        "await_ms": 28.44
+      },
+      {
+        "hostid": "host009",
+        "mod": "sdd_util",
+        "util": 39.67,
+        "await_ms": 28.76
+      },
+      {
+        "hostid": "host014",
+        "mod": "sdb_util",
+        "util": 50.9,
+        "await_ms": 42.26
+      },
+      {
+        "hostid": "host015",
+        "mod": "sdb_util",
+        "util": 6.76,
+        "await_ms": 15.07
+      },
+      {
+        "hostid": "host013",
+        "mod": "sda_util",
+        "util": 10.62,
+        "await_ms": 9.86
+      },
+      {
+        "hostid": "host012",
+        "mod": "sde_util",
+        "util": 31.19,
+        "await_ms": 7.95
+      },
+      {
+        "hostid": "host012",
+        "mod": "sdc_util",
+        "util": 0.51,
+        "await_ms": 16.28
+      },
+      {
+        "hostid": "host003",
+        "mod": "sda_util",
+        "util": 65.01,
+        "await_ms": 7.11
+      },
+      {
+        "hostid": "host014",
+        "mod": "sdd_util",
+        "util": 43.23,
+        "await_ms": 17.4
+      },
+      {
+        "hostid": "host019",
+        "mod": "sdc_util",
+        "util": 24.3,
+        "await_ms": 1.59
+      },
+      {
+        "hostid": "host012",
+        "mod": "sdb_util",
+        "util": 71.02,
+        "await_ms": 27.83
+      },
+      {
+        "hostid": "host010",
+        "mod": "sdd_util",
+        "util": 21.75,
+        "await_ms": 2.17
+      },
+      {
+        "hostid": "host004",
+        "mod": "sde_util",
+        "util": 33.29,
+        "await_ms": 38.38
+      },
+      {
+        "hostid": "host008",
+        "mod": "sde_util",
+        "util": 97.02,
+        "await_ms": 22.66
+      },
+      {
+        "hostid": "host003",
+        "mod": "sdc_util",
+        "util": 49.24,
+        "await_ms": 17.74
+      },
+      {
+        "hostid": "host004",
+        "mod": "sdd_util",
+        "util": 99.79,
+        "await_ms": 42.92
+      },
+      {
+        "hostid": "host017",
+        "mod": "sdb_util",
+        "util": 75.91,
+        "await_ms": 25.73
+      },
+      {
+        "hostid": "host009",
+        "mod": "sde_util",
+        "util": 29.92,
+        "await_ms": 48.57
+      },
+      {
+        "hostid": "host001",
+        "mod": "sde_util",
+        "util": 10.18,
+        "await_ms": 11.0
+      },
+      {
+        "hostid": "host010",
+        "mod": "sdc_util",
+        "util": 69.45,
+        "await_ms": 17.85
+      },
+      {
+        "hostid": "host005",
+        "mod": "sdb_util",
+        "util": 30.95,
+        "await_ms": 41.41
+      },
+      {
+        "hostid": "host007",
+        "mod": "sdd_util",
+        "util": 96.02,
+        "await_ms": 6.64
+      },
+      {
+        "hostid": "host013",
+        "mod": "sdc_util",
+        "util": 29.21,
+        "await_ms": 13.31
+      },
+      {
+        "hostid": "host011",
+        "mod": "sde_util",
+        "util": 68.4,
+        "await_ms": 47.83
+      },
+      {
+        "hostid": "host019",
+        "mod": "sda_util",
+        "util": 86.02,
+        "await_ms": 49.83
+      },
+      {
+        "hostid": "host020",
+        "mod": "sde_util",
+        "util": 10.0,
+        "await_ms": 46.58
+      },
+      {
+        "hostid": "host016",
+        "mod": "sde_util",
+        "util": 0.71,
+        "await_ms": 27.72
+      },
+      {
+        "hostid": "host019",
+        "mod": "sdd_util",
+        "util": 37.45,
+        "await_ms": 23.02
+      }
+    ]
+  },
+  "diskGauges": [
+    {
+      "mod": "sda_util",
+      "desc": "磁盘A使用率",
+      "value": 55.6,
+      "unit": "%"
+    },
+    {
+      "mod": "sdb_util",
+      "desc": "磁盘B使用率",
+      "value": 75.91,
+      "unit": "%"
+    },
+    {
+      "mod": "sdc_util",
+      "desc": "磁盘C使用率",
+      "value": 29.21,
+      "unit": "%"
+    },
+    {
+      "mod": "sdd_util",
+      "desc": "磁盘D使用率",
+      "value": 43.23,
+      "unit": "%"
+    },
+    {
+      "mod": "sde_util",
+      "desc": "磁盘E使用率",
+      "value": 58.31,
+      "unit": "%"
+    }
+  ],
+  "alerts": {
+    "alerts": [
+      {
+        "time": "2026-08-10 19:55:00",
+        "hostid": "host013",
+        "hostname": "server-013.hismartlab.cn",
+        "metric": "sdd_util",
+        "desc": "磁盘D使用率",
+        "value": 98.09,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-10 18:35:00",
+        "hostid": "host007",
+        "hostname": "server-007.hismartlab.cn",
+        "metric": "sdb_util",
+        "desc": "磁盘B使用率",
+        "value": 97.18,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-10 04:55:00",
+        "hostid": "host004",
+        "hostname": "server-004.hismartlab.cn",
+        "metric": "sda_util",
+        "desc": "磁盘A使用率",
+        "value": 93.82,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-10 04:30:00",
+        "hostid": "host012",
+        "hostname": "server-012.hismartlab.cn",
+        "metric": "sde_util",
+        "desc": "磁盘E使用率",
+        "value": 92.99,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-09 14:50:00",
+        "hostid": "host019",
+        "hostname": "server-019.hismartlab.cn",
+        "metric": "sdb_util",
+        "desc": "磁盘B使用率",
+        "value": 96.4,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-09 14:25:00",
+        "hostid": "host015",
+        "hostname": "server-015.hismartlab.cn",
+        "metric": "sde_util",
+        "desc": "磁盘E使用率",
+        "value": 91.37,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-09 09:45:00",
+        "hostid": "host004",
+        "hostname": "server-004.hismartlab.cn",
+        "metric": "sdd_util",
+        "desc": "磁盘D使用率",
+        "value": 99.79,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-08 18:10:00",
+        "hostid": "host011",
+        "hostname": "server-011.hismartlab.cn",
+        "metric": "sda_util",
+        "desc": "磁盘A使用率",
+        "value": 96.42,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-08 09:35:00",
+        "hostid": "host012",
+        "hostname": "server-012.hismartlab.cn",
+        "metric": "sdd_util",
+        "desc": "磁盘D使用率",
+        "value": 92.28,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-08 08:35:00",
+        "hostid": "host009",
+        "hostname": "server-009.hismartlab.cn",
+        "metric": "sdd_util",
+        "desc": "磁盘D使用率",
+        "value": 96.99,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-08 08:05:00",
+        "hostid": "host005",
+        "hostname": "server-005.hismartlab.cn",
+        "metric": "sdc_util",
+        "desc": "磁盘C使用率",
+        "value": 94.47,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-08 05:15:00",
+        "hostid": "host007",
+        "hostname": "server-007.hismartlab.cn",
+        "metric": "sdd_util",
+        "desc": "磁盘D使用率",
+        "value": 96.02,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-07 12:30:00",
+        "hostid": "host007",
+        "hostname": "server-007.hismartlab.cn",
+        "metric": "sdb_util",
+        "desc": "磁盘B使用率",
+        "value": 97.44,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-07 10:25:00",
+        "hostid": "host015",
+        "hostname": "server-015.hismartlab.cn",
+        "metric": "sde_util",
+        "desc": "磁盘E使用率",
+        "value": 95.73,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-07 06:00:00",
+        "hostid": "host007",
+        "hostname": "server-007.hismartlab.cn",
+        "metric": "sdd_util",
+        "desc": "磁盘D使用率",
+        "value": 98.94,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-06 22:35:00",
+        "hostid": "host012",
+        "hostname": "server-012.hismartlab.cn",
+        "metric": "sda_util",
+        "desc": "磁盘A使用率",
+        "value": 95.78,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-06 21:50:00",
+        "hostid": "host008",
+        "hostname": "server-008.hismartlab.cn",
+        "metric": "sde_util",
+        "desc": "磁盘E使用率",
+        "value": 97.02,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-06 19:20:00",
+        "hostid": "host013",
+        "hostname": "server-013.hismartlab.cn",
+        "metric": "sde_util",
+        "desc": "磁盘E使用率",
+        "value": 91.15,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-06 14:50:00",
+        "hostid": "host013",
+        "hostname": "server-013.hismartlab.cn",
+        "metric": "sdd_util",
+        "desc": "磁盘D使用率",
+        "value": 93.72,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-06 01:00:00",
+        "hostid": "host013",
+        "hostname": "server-013.hismartlab.cn",
+        "metric": "sdd_util",
+        "desc": "磁盘D使用率",
+        "value": 95.23,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-05 23:55:00",
+        "hostid": "host012",
+        "hostname": "server-012.hismartlab.cn",
+        "metric": "sdb_util",
+        "desc": "磁盘B使用率",
+        "value": 93.1,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-05 23:40:00",
+        "hostid": "host004",
+        "hostname": "server-004.hismartlab.cn",
+        "metric": "sdb_util",
+        "desc": "磁盘B使用率",
+        "value": 96.69,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-05 14:55:00",
+        "hostid": "host016",
+        "hostname": "server-016.hismartlab.cn",
+        "metric": "sdb_util",
+        "desc": "磁盘B使用率",
+        "value": 96.1,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-04 23:15:00",
+        "hostid": "host013",
+        "hostname": "server-013.hismartlab.cn",
+        "metric": "sde_util",
+        "desc": "磁盘E使用率",
+        "value": 95.45,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-04 19:10:00",
+        "hostid": "host011",
+        "hostname": "server-011.hismartlab.cn",
+        "metric": "sdd_util",
+        "desc": "磁盘D使用率",
+        "value": 96.38,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-04 16:00:00",
+        "hostid": "host004",
+        "hostname": "server-004.hismartlab.cn",
+        "metric": "sda_util",
+        "desc": "磁盘A使用率",
+        "value": 90.39,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-04 09:20:00",
+        "hostid": "host007",
+        "hostname": "server-007.hismartlab.cn",
+        "metric": "sda_util",
+        "desc": "磁盘A使用率",
+        "value": 92.52,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-04 01:30:00",
+        "hostid": "host009",
+        "hostname": "server-009.hismartlab.cn",
+        "metric": "sdd_util",
+        "desc": "磁盘D使用率",
+        "value": 95.46,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-03 08:50:00",
+        "hostid": "host017",
+        "hostname": "server-017.hismartlab.cn",
+        "metric": "sdc_util",
+        "desc": "磁盘C使用率",
+        "value": 94.37,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-03 03:45:00",
+        "hostid": "host011",
+        "hostname": "server-011.hismartlab.cn",
+        "metric": "sdb_util",
+        "desc": "磁盘B使用率",
+        "value": 98.97,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-02 22:00:00",
+        "hostid": "host020",
+        "hostname": "server-020.hismartlab.cn",
+        "metric": "sde_util",
+        "desc": "磁盘E使用率",
+        "value": 98.11,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-02 18:55:00",
+        "hostid": "host020",
+        "hostname": "server-020.hismartlab.cn",
+        "metric": "sda_util",
+        "desc": "磁盘A使用率",
+        "value": 99.03,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-02 00:05:00",
+        "hostid": "host003",
+        "hostname": "server-003.hismartlab.cn",
+        "metric": "sda_util",
+        "desc": "磁盘A使用率",
+        "value": 98.95,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-01 23:20:00",
+        "hostid": "host007",
+        "hostname": "server-007.hismartlab.cn",
+        "metric": "sdb_util",
+        "desc": "磁盘B使用率",
+        "value": 92.68,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-01 18:40:00",
+        "hostid": "host017",
+        "hostname": "server-017.hismartlab.cn",
+        "metric": "sdb_util",
+        "desc": "磁盘B使用率",
+        "value": 98.5,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-01 18:00:00",
+        "hostid": "host009",
+        "hostname": "server-009.hismartlab.cn",
+        "metric": "sde_util",
+        "desc": "磁盘E使用率",
+        "value": 90.97,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-01 16:00:00",
+        "hostid": "host004",
+        "hostname": "server-004.hismartlab.cn",
+        "metric": "sdc_util",
+        "desc": "磁盘C使用率",
+        "value": 93.47,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-01 15:55:00",
+        "hostid": "host016",
+        "hostname": "server-016.hismartlab.cn",
+        "metric": "sdd_util",
+        "desc": "磁盘D使用率",
+        "value": 98.55,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-01 01:55:00",
+        "hostid": "host003",
+        "hostname": "server-003.hismartlab.cn",
+        "metric": "sdd_util",
+        "desc": "磁盘D使用率",
+        "value": 97.4,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-08-01 01:20:00",
+        "hostid": "host015",
+        "hostname": "server-015.hismartlab.cn",
+        "metric": "sde_util",
+        "desc": "磁盘E使用率",
+        "value": 91.6,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-07-31 10:00:00",
+        "hostid": "host004",
+        "hostname": "server-004.hismartlab.cn",
+        "metric": "sda_util",
+        "desc": "磁盘A使用率",
+        "value": 91.6,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-07-31 07:55:00",
+        "hostid": "host014",
+        "hostname": "server-014.hismartlab.cn",
+        "metric": "sdd_util",
+        "desc": "磁盘D使用率",
+        "value": 98.96,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-07-31 05:00:00",
+        "hostid": "host015",
+        "hostname": "server-015.hismartlab.cn",
+        "metric": "sdb_util",
+        "desc": "磁盘B使用率",
+        "value": 95.09,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-07-30 20:30:00",
+        "hostid": "host010",
+        "hostname": "server-010.hismartlab.cn",
+        "metric": "sda_util",
+        "desc": "磁盘A使用率",
+        "value": 90.8,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-07-30 19:45:00",
+        "hostid": "host007",
+        "hostname": "server-007.hismartlab.cn",
+        "metric": "sdd_util",
+        "desc": "磁盘D使用率",
+        "value": 97.19,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-07-30 19:15:00",
+        "hostid": "host011",
+        "hostname": "server-011.hismartlab.cn",
+        "metric": "sda_util",
+        "desc": "磁盘A使用率",
+        "value": 91.53,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-07-30 16:10:00",
+        "hostid": "host017",
+        "hostname": "server-017.hismartlab.cn",
+        "metric": "sda_util",
+        "desc": "磁盘A使用率",
+        "value": 96.17,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-07-29 16:15:00",
+        "hostid": "host005",
+        "hostname": "server-005.hismartlab.cn",
+        "metric": "sdb_util",
+        "desc": "磁盘B使用率",
+        "value": 90.18,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-07-29 03:50:00",
+        "hostid": "host002",
+        "hostname": "server-002.hismartlab.cn",
+        "metric": "sde_util",
+        "desc": "磁盘E使用率",
+        "value": 92.99,
+        "unit": "%",
+        "level": "critical"
+      },
+      {
+        "time": "2026-07-29 01:30:00",
+        "hostid": "host019",
+        "hostname": "server-019.hismartlab.cn",
+        "metric": "sdd_util",
+        "desc": "磁盘D使用率",
+        "value": 99.81,
+        "unit": "%",
+        "level": "critical"
+      }
+    ],
+    "total": 50
+  },
+  "sparklines": {
+    "series": [
+      {
+        "hostid": "host001",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          5.29,
+          53.23,
+          35.47,
+          20.58,
+          21.14,
+          55.1,
+          58.79,
+          74.25,
+          28.97,
+          36.81,
+          21.52,
+          28.45,
+          29.54,
+          47.3,
+          26.36,
+          16.15,
+          37.44,
+          37.87,
+          70.91,
+          63.35,
+          18.26,
+          70.26,
+          61.54,
+          22.09
+        ]
+      },
+      {
+        "hostid": "host002",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          79.67,
+          58.25,
+          58.42,
+          21.77,
+          33.36,
+          78.63,
+          77.55,
+          41.19,
+          70.12,
+          57.49,
+          17.59,
+          66.41,
+          54.08,
+          58.27,
+          15.28,
+          16.9,
+          59.3,
+          30.9,
+          71.58,
+          32.31,
+          52.51,
+          73.65,
+          61.44,
+          55.85
+        ]
+      },
+      {
+        "hostid": "host003",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          49.34,
+          9.16,
+          34.21,
+          67.11,
+          57.16,
+          6.71,
+          56.9,
+          79.62,
+          9.65,
+          18.34,
+          18.09,
+          15.88,
+          19.17,
+          23.27,
+          38.26,
+          70.98,
+          33.45,
+          24.79,
+          21.65,
+          21.42,
+          75.78,
+          36.03,
+          74.49,
+          7.44
+        ]
+      },
+      {
+        "hostid": "host004",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          45.91,
+          71.75,
+          56.94,
+          44.01,
+          19.82,
+          20.57,
+          39.13,
+          10.59,
+          38.6,
+          66.07,
+          79.62,
+          38.48,
+          61.86,
+          76.85,
+          47.21,
+          71.5,
+          73.47,
+          41.81,
+          78.55,
+          9.95,
+          34.57,
+          55.55,
+          56.79,
+          44.37
+        ]
+      },
+      {
+        "hostid": "host005",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          19.93,
+          42.18,
+          75.06,
+          68.53,
+          42.4,
+          56.74,
+          15.66,
+          77.25,
+          53.45,
+          16.88,
+          41.9,
+          68.56,
+          19.52,
+          29.81,
+          57.2,
+          23.86,
+          68.31,
+          64.66,
+          67.12,
+          30.65,
+          27.99,
+          51.94,
+          14.58,
+          24.38
+        ]
+      },
+      {
+        "hostid": "host006",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          8.07,
+          41.81,
+          63.63,
+          25.68,
+          35.64,
+          52.54,
+          48.13,
+          14.94,
+          72.45,
+          27.58,
+          6.29,
+          44.52,
+          58.74,
+          66.73,
+          30.61,
+          59.54,
+          58.31,
+          58.42,
+          50.97,
+          42.7,
+          47.67,
+          45.53,
+          61.36,
+          69.57
+        ]
+      },
+      {
+        "hostid": "host007",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          45.21,
+          20.77,
+          22.33,
+          31.4,
+          31.85,
+          12.24,
+          27.12,
+          14.35,
+          34.02,
+          75.45,
+          78.37,
+          47.61,
+          29.52,
+          65.7,
+          23.98,
+          15.79,
+          47.55,
+          54.0,
+          55.59,
+          60.49,
+          57.64,
+          28.0,
+          31.85,
+          44.85
+        ]
+      },
+      {
+        "hostid": "host008",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          17.81,
+          42.97,
+          6.62,
+          23.61,
+          74.84,
+          74.23,
+          22.41,
+          45.75,
+          72.5,
+          27.91,
+          25.53,
+          29.43,
+          78.1,
+          11.43,
+          37.3,
+          59.32,
+          73.9,
+          22.87,
+          11.36,
+          63.74,
+          47.61,
+          53.37,
+          71.36,
+          49.19
+        ]
+      },
+      {
+        "hostid": "host009",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          25.99,
+          27.03,
+          13.16,
+          31.72,
+          41.19,
+          55.0,
+          60.47,
+          63.17,
+          11.3,
+          44.89,
+          22.12,
+          54.25,
+          65.15,
+          70.12,
+          22.1,
+          55.31,
+          36.4,
+          39.79,
+          37.43,
+          78.8,
+          15.29,
+          56.59,
+          10.97,
+          33.91
+        ]
+      },
+      {
+        "hostid": "host010",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          77.32,
+          43.71,
+          27.7,
+          60.28,
+          24.59,
+          64.46,
+          63.96,
+          79.07,
+          78.09,
+          10.5,
+          9.89,
+          73.51,
+          74.59,
+          21.45,
+          43.46,
+          20.24,
+          19.16,
+          57.11,
+          23.29,
+          66.43,
+          35.48,
+          79.98,
+          79.88,
+          19.81
+        ]
+      },
+      {
+        "hostid": "host011",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          17.68,
+          5.81,
+          18.53,
+          43.05,
+          6.34,
+          36.62,
+          42.12,
+          48.78,
+          39.77,
+          13.0,
+          30.84,
+          44.35,
+          36.33,
+          65.88,
+          49.88,
+          76.26,
+          69.82,
+          15.9,
+          30.23,
+          27.76,
+          64.35,
+          60.03,
+          18.88,
+          29.87
+        ]
+      },
+      {
+        "hostid": "host012",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          36.82,
+          66.4,
+          16.99,
+          66.44,
+          47.42,
+          77.98,
+          29.17,
+          23.39,
+          32.19,
+          59.4,
+          37.94,
+          31.04,
+          10.68,
+          11.02,
+          8.11,
+          69.82,
+          44.58,
+          75.3,
+          51.47,
+          28.38,
+          31.47,
+          15.88,
+          45.49,
+          59.65
+        ]
+      },
+      {
+        "hostid": "host013",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          42.79,
+          39.85,
+          38.6,
+          12.42,
+          51.87,
+          38.92,
+          49.95,
+          5.16,
+          53.47,
+          55.55,
+          40.01,
+          40.81,
+          35.65,
+          18.97,
+          60.91,
+          32.8,
+          79.72,
+          10.16,
+          25.06,
+          38.13,
+          34.41,
+          16.23,
+          57.08,
+          34.08
+        ]
+      },
+      {
+        "hostid": "host014",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          63.26,
+          67.21,
+          78.37,
+          34.66,
+          25.87,
+          50.89,
+          11.42,
+          36.2,
+          7.58,
+          42.46,
+          41.11,
+          75.58,
+          54.79,
+          23.46,
+          70.15,
+          20.46,
+          78.75,
+          64.97,
+          53.76,
+          60.88,
+          67.95,
+          63.85,
+          17.42,
+          57.12
+        ]
+      },
+      {
+        "hostid": "host015",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          69.12,
+          49.86,
+          58.2,
+          57.77,
+          38.14,
+          19.52,
+          72.38,
+          23.46,
+          49.81,
+          41.89,
+          20.83,
+          71.17,
+          45.31,
+          60.61,
+          53.25,
+          59.63,
+          58.16,
+          50.97,
+          32.26,
+          34.55,
+          41.0,
+          45.77,
+          29.33,
+          33.11
+        ]
+      },
+      {
+        "hostid": "host016",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          15.48,
+          42.85,
+          53.38,
+          23.21,
+          33.71,
+          50.62,
+          22.67,
+          53.4,
+          20.05,
+          72.63,
+          21.62,
+          16.67,
+          18.09,
+          74.5,
+          8.06,
+          6.89,
+          52.71,
+          41.73,
+          75.26,
+          63.01,
+          54.6,
+          79.39,
+          22.14,
+          16.79
+        ]
+      },
+      {
+        "hostid": "host017",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          8.06,
+          66.02,
+          16.55,
+          60.93,
+          12.7,
+          14.32,
+          41.88,
+          24.57,
+          27.42,
+          34.47,
+          32.79,
+          24.92,
+          74.52,
+          50.72,
+          29.4,
+          62.82,
+          65.31,
+          5.08,
+          16.08,
+          22.29,
+          60.08,
+          20.75,
+          40.6,
+          62.72
+        ]
+      },
+      {
+        "hostid": "host018",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          56.57,
+          36.24,
+          40.43,
+          40.53,
+          69.64,
+          24.7,
+          71.76,
+          59.4,
+          78.74,
+          53.89,
+          70.36,
+          51.63,
+          5.41,
+          65.02,
+          74.81,
+          66.43,
+          63.07,
+          19.6,
+          69.31,
+          14.85,
+          58.05,
+          39.41,
+          45.65,
+          41.72
+        ]
+      },
+      {
+        "hostid": "host019",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          22.59,
+          43.46,
+          49.88,
+          58.26,
+          54.62,
+          32.15,
+          9.48,
+          13.97,
+          79.81,
+          67.8,
+          62.86,
+          27.11,
+          15.94,
+          49.15,
+          46.62,
+          10.03,
+          68.59,
+          12.85,
+          13.12,
+          77.26,
+          68.04,
+          9.63,
+          71.91,
+          58.85
+        ]
+      },
+      {
+        "hostid": "host020",
+        "hours": [
+          "2026-07-07 00:00",
+          "2026-07-07 01:00",
+          "2026-07-07 02:00",
+          "2026-07-07 03:00",
+          "2026-07-07 04:00",
+          "2026-07-07 05:00",
+          "2026-07-07 06:00",
+          "2026-07-07 07:00",
+          "2026-07-07 08:00",
+          "2026-07-07 09:00",
+          "2026-07-07 10:00",
+          "2026-07-07 11:00",
+          "2026-07-07 12:00",
+          "2026-07-07 13:00",
+          "2026-07-07 14:00",
+          "2026-07-07 15:00",
+          "2026-07-07 16:00",
+          "2026-07-07 17:00",
+          "2026-07-07 18:00",
+          "2026-07-07 19:00",
+          "2026-07-07 20:00",
+          "2026-07-07 21:00",
+          "2026-07-07 22:00",
+          "2026-07-07 23:00"
+        ],
+        "values": [
+          33.49,
+          53.87,
+          51.32,
+          36.58,
+          73.24,
+          46.43,
+          68.57,
+          26.3,
+          48.03,
+          8.41,
+          55.55,
+          65.67,
+          8.3,
+          45.82,
+          72.54,
+          56.47,
+          12.53,
+          12.59,
+          35.63,
+          77.67,
+          66.25,
+          50.18,
+          63.01,
+          25.98
+        ]
+      }
+    ]
+  },
+  "netLoad": {
+    "points": [
+      {
+        "hour": "2026-07-06 00:00",
+        "net_in": 416.38,
+        "net_out": 406.18,
+        "load_avg": 13.09
+      },
+      {
+        "hour": "2026-07-06 01:00",
+        "net_in": 538.51,
+        "net_out": 501.41,
+        "load_avg": 14.06
+      },
+      {
+        "hour": "2026-07-06 02:00",
+        "net_in": 551.79,
+        "net_out": 498.42,
+        "load_avg": 15.28
+      },
+      {
+        "hour": "2026-07-06 03:00",
+        "net_in": 521.64,
+        "net_out": 492.15,
+        "load_avg": 17.63
+      },
+      {
+        "hour": "2026-07-06 04:00",
+        "net_in": 546.87,
+        "net_out": 554.19,
+        "load_avg": 15.07
+      },
+      {
+        "hour": "2026-07-06 05:00",
+        "net_in": 524.04,
+        "net_out": 528.47,
+        "load_avg": 17.24
+      },
+      {
+        "hour": "2026-07-06 06:00",
+        "net_in": 455.13,
+        "net_out": 452.42,
+        "load_avg": 16.79
+      },
+      {
+        "hour": "2026-07-06 07:00",
+        "net_in": 543.71,
+        "net_out": 501.05,
+        "load_avg": 16.04
+      },
+      {
+        "hour": "2026-07-06 08:00",
+        "net_in": 463.92,
+        "net_out": 376.43,
+        "load_avg": 17.4
+      },
+      {
+        "hour": "2026-07-06 09:00",
+        "net_in": 456.13,
+        "net_out": 536.88,
+        "load_avg": 12.79
+      },
+      {
+        "hour": "2026-07-06 10:00",
+        "net_in": 528.49,
+        "net_out": 471.05,
+        "load_avg": 14.88
+      },
+      {
+        "hour": "2026-07-06 11:00",
+        "net_in": 518.67,
+        "net_out": 382.14,
+        "load_avg": 16.91
+      },
+      {
+        "hour": "2026-07-06 12:00",
+        "net_in": 528.79,
+        "net_out": 539.8,
+        "load_avg": 18.92
+      },
+      {
+        "hour": "2026-07-06 13:00",
+        "net_in": 522.92,
+        "net_out": 599.64,
+        "load_avg": 13.35
+      },
+      {
+        "hour": "2026-07-06 14:00",
+        "net_in": 461.36,
+        "net_out": 514.23,
+        "load_avg": 15.65
+      },
+      {
+        "hour": "2026-07-06 15:00",
+        "net_in": 537.83,
+        "net_out": 504.05,
+        "load_avg": 14.95
+      },
+      {
+        "hour": "2026-07-06 16:00",
+        "net_in": 428.48,
+        "net_out": 488.72,
+        "load_avg": 16.22
+      },
+      {
+        "hour": "2026-07-06 17:00",
+        "net_in": 561.22,
+        "net_out": 572.29,
+        "load_avg": 16.03
+      },
+      {
+        "hour": "2026-07-06 18:00",
+        "net_in": 502.69,
+        "net_out": 476.51,
+        "load_avg": 18.4
+      },
+      {
+        "hour": "2026-07-06 19:00",
+        "net_in": 533.46,
+        "net_out": 678.06,
+        "load_avg": 17.97
+      },
+      {
+        "hour": "2026-07-06 20:00",
+        "net_in": 400.22,
+        "net_out": 662.08,
+        "load_avg": 12.94
+      },
+      {
+        "hour": "2026-07-06 21:00",
+        "net_in": 491.95,
+        "net_out": 495.54,
+        "load_avg": 13.88
+      },
+      {
+        "hour": "2026-07-06 22:00",
+        "net_in": 590.32,
+        "net_out": 597.62,
+        "load_avg": 13.34
+      },
+      {
+        "hour": "2026-07-06 23:00",
+        "net_in": 414.16,
+        "net_out": 611.93,
+        "load_avg": 13.29
+      },
+      {
+        "hour": "2026-07-07 00:00",
+        "net_in": 423.32,
+        "net_out": 514.43,
+        "load_avg": 16.66
+      },
+      {
+        "hour": "2026-07-07 01:00",
+        "net_in": 530.92,
+        "net_out": 445.04,
+        "load_avg": 14.31
+      },
+      {
+        "hour": "2026-07-07 02:00",
+        "net_in": 496.13,
+        "net_out": 615.81,
+        "load_avg": 15.63
+      },
+      {
+        "hour": "2026-07-07 03:00",
+        "net_in": 423.01,
+        "net_out": 477.51,
+        "load_avg": 19.85
+      },
+      {
+        "hour": "2026-07-07 04:00",
+        "net_in": 473.14,
+        "net_out": 614.94,
+        "load_avg": 16.16
+      },
+      {
+        "hour": "2026-07-07 05:00",
+        "net_in": 520.11,
+        "net_out": 439.25,
+        "load_avg": 15.17
+      },
+      {
+        "hour": "2026-07-07 06:00",
+        "net_in": 637.94,
+        "net_out": 416.39,
+        "load_avg": 14.9
+      },
+      {
+        "hour": "2026-07-07 07:00",
+        "net_in": 417.97,
+        "net_out": 607.71,
+        "load_avg": 16.84
+      },
+      {
+        "hour": "2026-07-07 08:00",
+        "net_in": 515.81,
+        "net_out": 532.49,
+        "load_avg": 15.59
+      },
+      {
+        "hour": "2026-07-07 09:00",
+        "net_in": 458.23,
+        "net_out": 484.23,
+        "load_avg": 13.55
+      },
+      {
+        "hour": "2026-07-07 10:00",
+        "net_in": 418.79,
+        "net_out": 485.75,
+        "load_avg": 16.12
+      },
+      {
+        "hour": "2026-07-07 11:00",
+        "net_in": 476.45,
+        "net_out": 390.69,
+        "load_avg": 14.12
+      },
+      {
+        "hour": "2026-07-07 12:00",
+        "net_in": 574.73,
+        "net_out": 455.78,
+        "load_avg": 14.79
+      },
+      {
+        "hour": "2026-07-07 13:00",
+        "net_in": 539.05,
+        "net_out": 441.39,
+        "load_avg": 18.98
+      },
+      {
+        "hour": "2026-07-07 14:00",
+        "net_in": 499.82,
+        "net_out": 555.66,
+        "load_avg": 15.17
+      },
+      {
+        "hour": "2026-07-07 15:00",
+        "net_in": 478.35,
+        "net_out": 461.56,
+        "load_avg": 16.33
+      },
+      {
+        "hour": "2026-07-07 16:00",
+        "net_in": 537.51,
+        "net_out": 467.0,
+        "load_avg": 14.36
+      },
+      {
+        "hour": "2026-07-07 17:00",
+        "net_in": 536.8,
+        "net_out": 401.81,
+        "load_avg": 17.79
+      },
+      {
+        "hour": "2026-07-07 18:00",
+        "net_in": 459.23,
+        "net_out": 583.73,
+        "load_avg": 15.98
+      },
+      {
+        "hour": "2026-07-07 19:00",
+        "net_in": 514.98,
+        "net_out": 604.55,
+        "load_avg": 14.26
+      },
+      {
+        "hour": "2026-07-07 20:00",
+        "net_in": 467.25,
+        "net_out": 465.6,
+        "load_avg": 19.83
+      },
+      {
+        "hour": "2026-07-07 21:00",
+        "net_in": 408.17,
+        "net_out": 476.61,
+        "load_avg": 17.25
+      },
+      {
+        "hour": "2026-07-07 22:00",
+        "net_in": 563.83,
+        "net_out": 388.14,
+        "load_avg": 17.52
+      },
+      {
+        "hour": "2026-07-07 23:00",
+        "net_in": 487.65,
+        "net_out": 521.62,
+        "load_avg": 17.73
+      }
+    ]
+  },
+  "dbHealth": {
+    "status": "ok",
+    "data_source": "local",
+    "mysql_configured": true,
+    "mysql_connected": false,
+    "message": "后端未启动，使用本地 .dat 快照数据"
+  }
+}

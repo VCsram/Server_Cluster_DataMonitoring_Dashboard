@@ -1,0 +1,56 @@
+.border-box {
+  position: relative;
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  border-radius: var(--panel-radius);
+  overflow: hidden;
+  min-height: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__glow {
+    position: absolute;
+    inset: -50%;
+    background: conic-gradient(from 0deg, transparent, rgba(0, 212, 255, 0.12), transparent 30%);
+    animation: rotateGlow 8s linear infinite;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  &__corner {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-color: var(--accent-cyan);
+    border-style: solid;
+    z-index: 2;
+    pointer-events: none;
+
+    &--tl {
+      top: 0;
+      left: 0;
+      border-width: 2px 0 0 2px;
+    }
+    &--tr {
+      top: 0;
+      right: 0;
+      border-width: 2px 2px 0 0;
+    }
+    &--bl {
+      bottom: 0;
+      left: 0;
+      border-width: 0 0 2px 2px;
+    }
+    &--br {
+      bottom: 0;
+      right: 0;
+      border-width: 0 2px 2px 0;
+    }
+  }
+
+  > .panel {
+    flex: 1;
+    background: transparent;
+    border-radius: 0;
+  }
+}

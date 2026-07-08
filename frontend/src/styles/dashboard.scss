@@ -1,0 +1,206 @@
+@import './variables.scss';
+
+.chart-canvas {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+
+  &--tall {
+    min-height: 0;
+  }
+
+  &--wide {
+    min-height: 0;
+    aspect-ratio: 2.2 / 1;
+    max-height: 100%;
+  }
+}
+
+.screen-wrapper {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: var(--bg-primary);
+  position: relative;
+}
+
+#dashboard-root {
+  width: 100%;
+  max-width: 100vw;
+  min-height: 100vh;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) minmax(0, 22vh);
+  grid-template-columns: 1fr;
+  gap: var(--gap);
+  padding: 8px 12px 10px;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+/* ── 顶部 ── */
+.dashboard-header {
+  display: grid;
+  grid-template-rows: 40px auto;
+  gap: 6px;
+  flex-shrink: 0;
+  animation: fadeInUp 0.5s ease both;
+}
+
+.dashboard-header__top {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+}
+
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: center;
+}
+
+.screen-title {
+  font-size: 24px;
+  font-weight: 700;
+  background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 2px;
+  white-space: nowrap;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent-cyan), transparent);
+  }
+}
+
+.clock-block {
+  text-align: right;
+  color: var(--text-secondary);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.db-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &__dot {
+    flex-shrink: 0;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--accent-green);
+    animation: pulse 2s infinite;
+
+    &--warn {
+      background: var(--accent-orange);
+    }
+  }
+}
+
+/* ── 主体三栏：填满中间区域 ── */
+.dashboard-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr);
+  gap: var(--gap);
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.dashboard-col {
+  display: grid;
+  gap: var(--gap);
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+
+  &--left {
+    grid-template-rows: 1.1fr 1fr 0.95fr;
+  }
+
+  &--center {
+    grid-template-rows: 1.45fr 1fr;
+  }
+
+  &--right {
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+
+/* ── 底部：宽幅折线图区域加宽 ── */
+.dashboard-footer {
+  display: grid;
+  grid-template-columns: 0.9fr 1.3fr 1.8fr;
+  gap: var(--gap);
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* ── 面板 ── */
+.panel {
+  height: 100%;
+  background: var(--bg-panel);
+  border-radius: var(--panel-radius);
+  padding: 6px 8px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+  animation: fadeInUp 0.5s ease both;
+
+  &--delay-1 { animation-delay: 0.05s; }
+  &--delay-2 { animation-delay: 0.1s; }
+  &--delay-3 { animation-delay: 0.15s; }
+
+  &__body {
+    flex: 1;
+    min-height: 0;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    /* 图表画布仍可裁剪，Tooltip 已通过 appendTo body 逃逸 */
+
+    .chart-canvas--wide {
+      flex: 1;
+      width: 100%;
+      height: 100%;
+      aspect-ratio: unset;
+      max-height: none;
+    }
+  }
+}
+
+/* 底部折线图面板：横向展示 */
+.panel--chart-wide .panel__body {
+  min-height: 0;
+}
+
+/* ECharts Tooltip 挂载到 body 后的全局样式 */
+.echarts-tooltip-portal {
+  z-index: 10001 !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45) !important;
+  border: 1px solid rgba(0, 212, 255, 0.25) !important;
+}

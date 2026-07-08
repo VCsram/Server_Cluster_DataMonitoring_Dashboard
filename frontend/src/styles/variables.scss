@@ -1,0 +1,73 @@
+:root {
+  --bg-primary: #0a1628;
+  --bg-panel: rgba(6, 30, 60, 0.85);
+  --accent-cyan: #00d4ff;
+  --accent-blue: #1a6dff;
+  --accent-orange: #ff6b35;
+  --accent-green: #00e676;
+  --accent-red: #ff4757;
+  --text-primary: #e0f0ff;
+  --text-secondary: #8eb4d9;
+  --border-glow: rgba(0, 212, 255, 0.4);
+  --panel-radius: 6px;
+  --gap: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scan {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+@keyframes rotateGlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

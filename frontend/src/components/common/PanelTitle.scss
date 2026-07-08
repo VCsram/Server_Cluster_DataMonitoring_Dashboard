@@ -1,0 +1,31 @@
+.panel-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+  flex-shrink: 0;
+  min-height: 22px;
+
+  &__icon {
+    width: 3px;
+    height: 14px;
+    background: linear-gradient(180deg, var(--accent-cyan), var(--accent-blue));
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  &__text {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+  }
+
+  &__sub {
+    margin-left: auto;
+    font-size: 11px;
+    color: var(--text-secondary);
+    white-space: nowrap;
+  }
+}

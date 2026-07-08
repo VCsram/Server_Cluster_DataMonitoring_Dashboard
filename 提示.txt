@@ -1,0 +1,257 @@
+================================================================================
+【连接信息速查】
+================================================================================
+
+  主机：127.0.0.1
+  端口：3307
+  账户：root
+  密码：123456
+  库名：tsar_monitor
+  表名：host_detail, mod_detail, pref_tsar, disk_tsar
+  容器：mysql8
+
+  后端 API：http://127.0.0.1:8000
+  前端大屏：http://localhost:5173
+  默认数据源：backend/.env 中 DATA_SOURCE=dat（.dat 文件）
+  切换 MySQL：DATA_SOURCE=mysql
+
+  前端离线模式：后端未启动时自动使用 frontend/src/mock/data.json 快照
+
+================================================================================
+================================================================================
+一、整体架构（先搞清楚谁连谁）
+================================================================================
+
+  前端 React (5173)  →  后端 FastAPI (8000)  →  MySQL Docker (3307→3306)
+
+重要：前端不直接连 MySQL，只通过 HTTP 调后端 API。
+      MySQL 连接配置全部在后端 backend/.env 里。
+
+
+================================================================================
+二、MySQL 连接参数（最重要）
+================================================================================
+
+当前实际环境：
+
+  配置项        正确值              常见错误
+  ─────────────────────────────────────────────────────────
+  主机          127.0.0.1           写成 3306 端口或容器名 mysql8
+  端口          3307                写成 3306（那是容器内部端口）
+  用户          root
+  密码          123456
+  数据库名      tsar_monitor        写成 monitor_db
+
+⚠ 数据库名不一致问题：
+  - 你导入的数据在：tsar_monitor
+  - 项目 README / docker-compose 默认写的是：monitor_db
+  - 后端 .env 必须写成实际导入的库名 tsar_monitor
+
+
+================================================================================
+三、后端 .env 推荐配置
+================================================================================
+
+在 backend/ 目录下创建 .env 文件（可参考 .env.example）：
+
+  DATA_SOURCE=mysql
+  MYSQL_HOST=127.0.0.1
+  MYSQL_PORT=3307
+  MYSQL_USER=root
+  MYSQL_PASSWORD=123456
+  MYSQL_DATABASE=tsar_monitor
+
+说明：
+  - DATA_SOURCE=dat   → 读 backend/data/*.dat 文件（默认）
+  - DATA_SOURCE=mysql → 连 MySQL 数据库
+  - MYSQL_DATABASE 为空时，MySQL 模式会直接报错
+
+
+================================================================================
+四、后端切换 MySQL 的步骤
+================================================================================
+
+  1. 在 backend/ 下创建 .env，设置 DATA_SOURCE=mysql 和 MYSQL_DATABASE=tsar_monitor
+  2. 确保 Docker MySQL 容器在运行：docker ps
+  3. 启动后端：
+       cd backend
+       pip install -r requirements.txt
+       uvicorn app.main:app --reload --port 8000
+  4. 访问健康检查：http://127.0.0.1:8000/api/v1/health/db
+     期望返回：mysql_connected: true
+  5. API 文档：http://127.0.0.1:8000/docs
+
+
+================================================================================
+五、Docker 容器相关注意点
+================================================================================
+
+当前容器信息：
+  - 容器名：mysql8
+  - 镜像：mysql:8.0
+  - 端口映射：3307:3306（宿主机 3307 → 容器内 3306）
+
+项目 docker-compose.yml 里写的是另一个容器名 monitor_mysql，不要同时起两个
+MySQL 占 3307 端口，否则会冲突。
+
+后端在 Windows / WSL 宿主机上跑时，统一用：127.0.0.1:3307
+只有后端也放进 Docker 同一网络时，才用服务名 + 3306（如 mysql:3306）。
+
+
+================================================================================
+六、数据库表结构
+================================================================================
+
+库名：tsar_monitor
+
+  表名           作用           行数      说明
+  ─────────────────────────────────────────────────────────
+  host_detail    主机维度       20        PK: hostid
+  mod_detail     指标维度       55        PK: mod（pref 20 + disk 35）
+  pref_tsar      性能时序       67200     复合主键 (ts, hostid, mod)
+  disk_tsar      磁盘时序       12000     复合主键 (ts, hostid, mod)
+
+关联关系：
+  pref_tsar.hostid = host_detail.hostid
+  pref_tsar.mod    = mod_detail.mod   （且 mod_detail.type = 'pref'）
+  disk_tsar.hostid = host_detail.hostid
+  disk_tsar.mod    = mod_detail.mod   （且 mod_detail.type = 'disk'）
+
+
+================================================================================
+七、SQL 编写注意事项
+================================================================================
+
+1. 保留字必须加反引号
+   mod、desc 是 MySQL 保留字，SQL 里必须写：
+
+     SELECT p.`mod`, m.`desc`
+     FROM pref_tsar p
+     JOIN mod_detail m ON p.`mod` = m.`mod`
+
+2. 时间戳字段 ts 是毫秒 BIGINT
+   展示时间需要转换：
+
+     FROM_UNIXTIME(ts / 1000)                    -- UTC
+     FROM_UNIXTIME(ts / 1000 + 8 * 3600)         -- 北京时间 UTC+8
+
+3. 字符集
+   连接时指定 charset=utf8mb4（mysql_source.py 已配置），避免中文乱码。
+
+
+================================================================================
+八、前后端对接配置
+================================================================================
+
+后端：
+  - 端口：8000
+  - CORS 默认允许：http://localhost:5173、http://127.0.0.1:5173
+  - 配置文件：backend/app/config.py
+
+前端：
+  - 端口：5173
+  - API 基础路径：/api/v1
+  - Vite 代理：/api → http://127.0.0.1:8000
+  - 配置文件：frontend/vite.config.ts
+
+前端不用改 MySQL 配置，只要后端 8000 正常、代理生效即可。
+
+启动前端：
+  cd frontend
+  npm install
+  npm run dev
+  访问：http://localhost:5173
+
+
+================================================================================
+九、API 端点一览
+================================================================================
+
+  GET /api/v1/overview              KPI 总览
+  GET /api/v1/hosts                 主机列表
+  GET /api/v1/hosts/distribution    机房/型号分布
+  GET /api/v1/metrics/pref/trend    CPU/内存趋势
+  GET /api/v1/metrics/pref/heatmap  CPU 热力图
+  GET /api/v1/metrics/disk/top      磁盘 Top + 散点
+  GET /api/v1/metrics/disk/gauges   磁盘仪表盘
+  GET /api/v1/alerts                告警列表
+  GET /api/v1/health/db             数据库连接状态
+
+
+================================================================================
+十、当前项目待完成部分
+================================================================================
+
+backend/app/services/datasource/mysql_source.py 里 MySQL 查询尚未实现。
+切换到 DATA_SOURCE=mysql 后，各 API 方法会报 NotImplementedError。
+
+需要在该文件中补全 SQL 查询逻辑，可参考 dat_source.py 的实现。
+建议：先用 dat 模式跑通前后端，再逐个 API 改成 MySQL 查询。
+
+
+================================================================================
+十一、常见问题排查
+================================================================================
+
+  现象                              可能原因              处理
+  ─────────────────────────────────────────────────────────────────────
+  Can't connect to MySQL server     容器没启动/端口错     docker ps，确认 3307
+  Unknown database 'monitor_db'     库名写错              改成 tsar_monitor
+  MYSQL_DATABASE 未配置             .env 没设库名         补 MYSQL_DATABASE=tsar_monitor
+  中文乱码                          字符集不对            连接用 utf8mb4
+  SQL 语法错误 near mod             保留字未加反引号      用 `mod`
+  前端 404 / 跨域                   后端没启动或代理失效  先访问 8000/docs
+  切换 mysql 后接口 500             SQL 未实现            补 mysql_source.py
+
+
+================================================================================
+十二、对接前检查清单（命令行）
+================================================================================
+
+# 1. MySQL 容器运行中
+docker ps
+
+# 2. 数据库有数据
+docker exec -it mysql8 mysql -uroot -p123456 -e "USE tsar_monitor; SHOW TABLES;"
+
+# 3. 验证行数
+docker exec -it mysql8 mysql -uroot -p123456 -e "
+USE tsar_monitor;
+SELECT 'host_detail' AS tbl, COUNT(*) AS cnt FROM host_detail
+UNION ALL SELECT 'mod_detail', COUNT(*) FROM mod_detail
+UNION ALL SELECT 'pref_tsar', COUNT(*) FROM pref_tsar
+UNION ALL SELECT 'disk_tsar', COUNT(*) FROM disk_tsar;
+"
+期望：20 / 55 / 67200 / 12000
+
+# 4. 后端健康检查（需先启动后端）
+curl http://127.0.0.1:8000/api/v1/health/db
+
+# 5. 前端能访问后端
+curl http://127.0.0.1:8000/api/v1/overview
+
+
+================================================================================
+十三、重新导入 SQL（如需重置数据）
+================================================================================
+
+WSL 中执行：
+
+  docker exec -i mysql8 mysql -uroot -p123456 < "/mnt/d/xuexixiagnguan/summer/数据作业/output/import_data.sql"
+
+SQL 文件路径（Windows）：
+  d:\xuexixiagnguan\summer\数据作业\output\import_data.sql
+
+重新生成 SQL 文件：
+  python "d:\xuexixiagnguan\summer\数据作业\generate_mysql_sql.py"
+
+
+================================================================================
+一句话总结
+================================================================================
+
+后端用 127.0.0.1:3307 连 tsar_monitor，前端只连 8000 端口；
+数据库名不要写成 monitor_db；SQL 里 mod 和 desc 要加反引号；
+切换 MySQL 前先实现 mysql_source.py 里的查询逻辑。
+
+================================================================================

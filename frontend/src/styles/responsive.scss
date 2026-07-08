@@ -1,0 +1,76 @@
+@import './variables.scss';
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* 小屏允许滚动 */
+@media (max-width: 1024px) {
+  html,
+  body,
+  #root {
+    overflow-y: auto;
+    height: auto;
+  }
+
+  .screen-wrapper,
+  #dashboard-root {
+    height: auto;
+    min-height: 100vh;
+    grid-template-rows: auto auto auto;
+    overflow: visible;
+  }
+
+  .dashboard-main {
+    height: auto;
+    min-height: 600px;
+    overflow: visible;
+  }
+
+  .dashboard-col {
+    height: auto;
+    grid-template-rows: none;
+    grid-auto-rows: minmax(200px, auto);
+  }
+
+  .dashboard-footer {
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(180px, auto);
+  }
+
+  .chart-canvas--wide {
+    aspect-ratio: 2 / 1;
+    min-height: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-header__top {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .kpi-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dashboard-main {
+    grid-template-columns: 1fr;
+  }
+
+  .clock-block {
+    text-align: center;
+  }
+
+  .screen-title {
+    font-size: 18px;
+  }
+}
+
+.mobile-mode .particle-bg {
+  display: none;
+}
