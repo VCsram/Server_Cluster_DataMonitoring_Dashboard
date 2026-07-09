@@ -3,9 +3,10 @@ from pathlib import Path
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = BASE_DIR / "data"
-ENV_FILE = BASE_DIR / ".env"
+BACKEND_DIR = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = BACKEND_DIR.parent
+DATA_DIR = PROJECT_ROOT / "data"
+ENV_FILE = BACKEND_DIR / ".env"
 
 
 class Settings(BaseSettings):

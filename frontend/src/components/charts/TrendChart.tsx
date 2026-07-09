@@ -24,12 +24,29 @@ export default function TrendChart({ data }: Props) {
         textStyle: { color: '#8eb4d9' },
         top: 0,
       },
-      grid: { left: 50, right: 50, top: 40, bottom: 50 },
-      dataZoom: [{ type: 'inside' }, { type: 'slider', height: 16, bottom: 8 }],
+      grid: { left: 50, right: 50, top: 40, bottom: 68 },
+      dataZoom: [
+        { type: 'inside' },
+        {
+          type: 'slider',
+          height: 14,
+          bottom: 6,
+          borderColor: 'rgba(0,212,255,0.2)',
+          fillerColor: 'rgba(0,212,255,0.15)',
+          handleStyle: { color: '#00d4ff' },
+          textStyle: { color: '#8eb4d9', fontSize: 9 },
+        },
+      ],
       xAxis: {
         type: 'category',
         data: hours,
-        axisLabel: { color: '#8eb4d9', rotate: 30, fontSize: 10 },
+        axisLabel: {
+          color: '#8eb4d9',
+          rotate: 28,
+          fontSize: 8,
+          margin: 10,
+          interval: Math.max(0, Math.floor(hours.length / 10) - 1),
+        },
         axisLine: { lineStyle: { color: 'rgba(0,212,255,0.3)' } },
       },
       yAxis: [

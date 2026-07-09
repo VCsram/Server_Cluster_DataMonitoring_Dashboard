@@ -7,6 +7,7 @@ interface Props {
   suffix?: string
   decimals?: number
   color?: string
+  compact?: boolean
 }
 
 function formatNumber(num: number, decimals: number) {
@@ -16,7 +17,7 @@ function formatNumber(num: number, decimals: number) {
   })
 }
 
-export default function FlipNumber({ label, value, suffix = '', decimals = 0, color }: Props) {
+export default function FlipNumber({ label, value, suffix = '', decimals = 0, color, compact }: Props) {
   const [display, setDisplay] = useState(0)
   const frameRef = useRef<number>(0)
   const startRef = useRef(0)
@@ -45,7 +46,10 @@ export default function FlipNumber({ label, value, suffix = '', decimals = 0, co
   }, [value])
 
   return (
-    <div className="flip-number" style={color ? ({ '--flip-color': color } as React.CSSProperties) : undefined}>
+    <div
+      className={`flip-number${compact ? ' flip-number--compact' : ''}`}
+      style={color ? ({ '--flip-color': color } as React.CSSProperties) : undefined}
+    >
       <div className="flip-number__value">
         {formatNumber(display, decimals)}
         {suffix && <span className="flip-number__suffix">{suffix}</span>}

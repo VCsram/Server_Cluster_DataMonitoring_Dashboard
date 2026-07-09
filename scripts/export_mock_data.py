@@ -1,14 +1,19 @@
 # -*- coding: utf-8 -*-
-"""从 backend dat 数据导出前端离线 mock JSON。"""
+"""从项目 data/*.dat 导出前端离线 mock JSON。"""
 import json
+import os
 import sys
 from pathlib import Path
+
+os.environ.setdefault("DATA_SOURCE", "dat")
 
 BACKEND = Path(__file__).resolve().parent.parent / "backend"
 sys.path.insert(0, str(BACKEND))
 
+from app.config import get_settings  # noqa: E402
 from app.services import aggregator  # noqa: E402
-from app.services.datasource.mysql_source import check_db_health  # noqa: E402
+
+get_settings.cache_clear()
 
 OUT = Path(__file__).resolve().parent.parent / "frontend" / "src" / "mock" / "data.json"
 

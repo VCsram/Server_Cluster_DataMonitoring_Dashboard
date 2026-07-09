@@ -33,8 +33,8 @@
   display: grid;
   grid-template-rows: auto minmax(0, 1fr) minmax(0, 22vh);
   grid-template-columns: 1fr;
-  gap: var(--gap);
-  padding: 8px 12px 10px;
+  gap: 6px;
+  padding: 6px 12px 8px;
   position: relative;
   z-index: 1;
   box-sizing: border-box;
@@ -42,30 +42,58 @@
 
 /* ── 顶部 ── */
 .dashboard-header {
+  position: relative;
   display: grid;
-  grid-template-rows: 40px auto;
-  gap: 6px;
+  grid-template-rows: 32px auto;
+  gap: 4px;
   flex-shrink: 0;
   animation: fadeInUp 0.5s ease both;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 8%;
+    width: 84%;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(0, 212, 255, 0.5),
+      rgba(26, 109, 255, 0.6),
+      rgba(0, 212, 255, 0.5),
+      transparent
+    );
+    box-shadow: 0 0 12px rgba(0, 212, 255, 0.35);
+    animation: headerLinePulse 3s ease-in-out infinite;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 80%;
+    background: radial-gradient(ellipse at center, rgba(0, 212, 255, 0.06) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: -1;
+  }
 }
 
 .dashboard-header__top {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
-}
-
-.kpi-row {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  align-items: center;
+  min-height: 32px;
 }
 
 .screen-title {
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 700;
-  background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue));
+  background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue), var(--accent-cyan));
+  background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -74,15 +102,18 @@
   position: relative;
   padding-bottom: 2px;
   white-space: nowrap;
+  filter: drop-shadow(0 0 8px rgba(0, 212, 255, 0.35));
+  animation: titleShimmer 4s linear infinite;
 
   &::after {
     content: '';
     position: absolute;
     bottom: 0;
-    left: 10%;
-    width: 80%;
+    left: 15%;
+    width: 70%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, var(--accent-cyan), transparent);
+    background: linear-gradient(90deg, transparent, var(--accent-cyan), var(--accent-blue), transparent);
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
   }
 }
 

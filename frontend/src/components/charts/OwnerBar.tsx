@@ -7,41 +7,68 @@ interface Props {
   data: DistributionItem[]
 }
 
+const COLORS = ['#00d4ff', '#1a6dff', '#00e676', '#ff6b35', '#a855f7', '#f59e0b', '#ec4899', '#14b8a6']
+
 export default function OwnerBar({ data }: Props) {
   const ref = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     if (!ref.current || !data.length) return
     const chart = echarts.init(ref.current)
-    const names = data.map((d) => d.name)
-    const values = data.map((d) => d.value)
 
     chart.setOption({
       backgroundColor: 'transparent',
-      tooltip: overflowTooltip({ trigger: 'axis' }),
-      grid: { left: 60, right: 20, top: 10, bottom: 20 },
-      xAxis: {
-        type: 'value',
-        axisLabel: { color: '#8eb4d9' },
-        splitLine: { lineStyle: { color: 'rgba(255,255,255,0.06)' } },
-      },
-      yAxis: {
-        type: 'category',
-        data: names,
-        axisLabel: { color: '#8eb4d9', fontSize: 11 },
+      tooltip: overflowTooltip({
+        trigger: 'item',
+        formatter: '{b}<br/>主机数：{c} 台 ({d}%)',
+      }),
+      legend: {
+        type: 'scroll',
+        orient: 'vertical',
+        right: 4,
+        top: 'middle',
+        itemWidth: 10,
+        itemHeight: 10,
+        itemGap: 8,
+        textStyle: { color: '#8eb4d9', fontSize: 10 },
+        pageTextStyle: { color: '#8eb4d9' },
       },
       series: [
         {
-          type: 'bar',
-          data: values,
-          barWidth: 12,
+          type: 'pie',
+          radius: ['38%', '62%'],
+          center: ['38%', '52%'],
+          avoidLabelOverlap: true,
+          minAngle: 8,
           itemStyle: {
-            borderRadius: [0, 4, 4, 0],
-            color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
-              { offset: 0, color: '#1a6dff' },
-              { offset: 1, color: '#00d4ff' },
-            ]),
+            borderRadius: 6,
+            borderColor: '#0a1628',
+            borderWidth: 2,
           },
+          label: {
+            show: true,
+            position: 'outside',
+            color: '#8eb4d9',
+            fontSize: 10,
+            formatter: '{b}\n{c}台',
+            lineHeight: 14,
+          },
+          labelLine: {
+            length: 10,
+            length2: 8,
+            smooth: true,
+            lineStyle: { color: 'rgba(142,180,217,0.5)' },
+          },
+          emphasis: {
+            scale: true,
+            scaleSize: 6,
+            label: { fontSize: 11, fontWeight: 'bold' },
+          },
+          data: data.map((d, i) => ({
+            name: d.name,
+            value: d.value,
+            itemStyle: { color: COLORS[i % COLORS.length] },
+          })),
         },
       ],
     })

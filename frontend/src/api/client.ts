@@ -39,8 +39,12 @@ export function isBackendReady(): boolean | null {
 export async function requestWithFallback<T>(path: string, config?: AxiosRequestConfig): Promise<T> {
   const online = await probeBackend()
   if (online) {
-    const response = await client.get<T>(path, config)
-    return response.data
+    try {
+      const response = await client.get<T>(path, config)
+      return response.data
+    } catch {
+      return getLocalData(normalizePath(path)) as T
+    }
   }
   return getLocalData(normalizePath(path)) as T
 }

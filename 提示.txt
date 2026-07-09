@@ -12,9 +12,11 @@
 
   后端 API：http://127.0.0.1:8000
   前端大屏：http://localhost:5173
-  默认数据源：backend/.env 中 DATA_SOURCE=dat（.dat 文件）
+  默认数据源：backend/.env 中 DATA_SOURCE=dat（读项目根目录 data/*.dat）
   切换 MySQL：DATA_SOURCE=mysql
 
+  预存数据目录：digital_display_project/data/
+  MySQL 导入脚本：digital_display_project/output/import_data.sql
   前端离线模式：后端未启动时自动使用 frontend/src/mock/data.json 快照
 
 ================================================================================
@@ -62,7 +64,7 @@
   MYSQL_DATABASE=tsar_monitor
 
 说明：
-  - DATA_SOURCE=dat   → 读 backend/data/*.dat 文件（默认）
+  - DATA_SOURCE=dat   → 读项目根目录 data/*.dat 文件（默认）
   - DATA_SOURCE=mysql → 连 MySQL 数据库
   - MYSQL_DATABASE 为空时，MySQL 模式会直接报错
 
@@ -237,13 +239,14 @@ curl http://127.0.0.1:8000/api/v1/overview
 
 WSL 中执行：
 
-  docker exec -i mysql8 mysql -uroot -p123456 < "/mnt/d/xuexixiagnguan/summer/数据作业/output/import_data.sql"
+  docker exec -i mysql8 mysql -uroot -p123456 --default-character-set=utf8mb4 < "/mnt/d/xuexixiagnguan/summer/数据作业/digital_display_project/output/import_data.sql"
 
 SQL 文件路径（Windows）：
-  d:\xuexixiagnguan\summer\数据作业\output\import_data.sql
+  d:\xuexixiagnguan\summer\数据作业\digital_display_project\output\import_data.sql
 
-重新生成 SQL 文件：
-  python "d:\xuexixiagnguan\summer\数据作业\generate_mysql_sql.py"
+重新生成 SQL 文件（在项目根目录执行）：
+  cd digital_display_project
+  python scripts/generate_mysql_sql.py
 
 
 ================================================================================

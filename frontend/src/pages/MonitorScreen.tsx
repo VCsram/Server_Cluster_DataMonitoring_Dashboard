@@ -17,7 +17,7 @@ import { useIsMobile } from '../hooks/useIsMobile'
 import ParticleBg from '../components/effects/ParticleBg'
 import ScanLine from '../components/effects/ScanLine'
 import BorderBox from '../components/common/BorderBox'
-import FlipNumber from '../components/common/FlipNumber'
+import KpiStrip from '../components/common/KpiStrip'
 import PanelTitle from '../components/common/PanelTitle'
 import ScrollTable from '../components/common/ScrollTable'
 import TrendChart from '../components/charts/TrendChart'
@@ -175,7 +175,7 @@ export default function MonitorScreen() {
     const isLocalMock = dbHealth.data_source === 'local'
     const fromDb =
       !isLocalMock && dbHealth.data_source === 'mysql' && dbHealth.mysql_connected
-    setToastMessage(fromDb ? '已连接数据库' : '正在使用预存数据')
+    setToastMessage(fromDb ? '已连接数据库，数据量较大，请耐心等待加载' : '正在使用预存数据')
   }, [dbHealth, dbHealthReady])
 
   // 布局完成后通知 ECharts 重新计算尺寸
@@ -189,10 +189,12 @@ export default function MonitorScreen() {
   const timeStr = now.toLocaleString('zh-CN', { hour12: false })
 
   const statusMessage = dbHealth?.message ?? (dbHealthReady ? '加载中...' : '正在探测数据源...')
-  const statusOk =
-    dbHealth?.data_source === 'mysql'
-      ? dbHealth.mysql_connected
-      : dbHealth?.data_source !== 'local' && dbHealth?.status === 'ok'
+  const statusOk = dbHealth?.status === 'ok'
+
+  const mysqlLoadingHint =
+    dbHealth?.data_source === 'mysql' && dbHealth.mysql_connected && loadStatus.visible
+      ? '数据库已连接，数据量较大，请耐心等待加载完成'
+      : undefined
 
   return (
     <div className={`screen-wrapper ${isMobile ? 'mobile-mode' : ''}`}>
@@ -202,6 +204,7 @@ export default function MonitorScreen() {
         done={loadStatus.done}
         total={loadStatus.total}
         currentTask={loadStatus.currentTask}
+        hint={mysqlLoadingHint}
       />
       {toastMessage && (
         <Toast message={toastMessage} duration={6000} onClose={() => setToastMessage(null)} />
@@ -215,7 +218,7 @@ export default function MonitorScreen() {
               {statusMessage}
               {overview?.data_source && (
                 <span style={{ marginLeft: 8, opacity: 0.75 }}>
-                  [{overview.data_source === 'local' ? '本地快照' : overview.data_source}]
+                  [{overview.data_source === 'local' ? '本地快照' : overview.data_source === 'mysql' ? 'MySQL' : '预存数据'}]
                 </span>
               )}
             </div>
@@ -232,12 +235,12 @@ export default function MonitorScreen() {
               )}
             </div>
           </div>
-          <div className="kpi-row">
-            <FlipNumber label="主机总数" value={overview?.host_count ?? 0} suffix="台" />
-            <FlipNumber label="在线率" value={overview?.online_rate ?? 0} suffix="%" decimals={1} color="#00e676" />
-            <FlipNumber label="告警数量" value={overview?.alert_count ?? 0} suffix="条" color="#ff6b35" />
-            <FlipNumber label="平均 CPU" value={overview?.avg_cpu ?? 0} suffix="%" decimals={1} />
-          </div>
+          <KpiStrip
+            hostCount={overview?.host_count ?? 0}
+            onlineRate={overview?.online_rate ?? 0}
+            alertCount={overview?.alert_count ?? 0}
+            avgCpu={overview?.avg_cpu ?? 0}
+          />
         </header>
 
         <main className="dashboard-main">

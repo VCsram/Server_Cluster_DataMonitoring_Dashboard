@@ -63,6 +63,15 @@
     text-overflow: ellipsis;
     color: #6fa8d9;
   }
+
+  &__hint {
+    margin-top: 8px;
+    padding-top: 6px;
+    border-top: 1px solid rgba(0, 212, 255, 0.15);
+    font-size: 10px;
+    line-height: 1.5;
+    color: #ff6b35;
+  }
 }
 
 @keyframes loading-in {

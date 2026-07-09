@@ -6,9 +6,10 @@ interface Props {
   done: number
   total: number
   currentTask?: string
+  hint?: string
 }
 
-export default function LoadingProgress({ visible, progress, done, total, currentTask }: Props) {
+export default function LoadingProgress({ visible, progress, done, total, currentTask, hint }: Props) {
   if (!visible) return null
 
   return (
@@ -26,6 +27,7 @@ export default function LoadingProgress({ visible, progress, done, total, curren
         <span>{progress}%</span>
         {currentTask && <span className="loading-progress__task">{currentTask}</span>}
       </div>
+      {hint && <p className="loading-progress__hint">{hint}</p>}
     </div>
   )
 }

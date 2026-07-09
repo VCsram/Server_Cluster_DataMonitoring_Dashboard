@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import './Toast.scss'
 
 interface ToastProps {
@@ -10,18 +10,20 @@ interface ToastProps {
 export default function Toast({ message, duration = 6000, onClose }: ToastProps) {
   const [visible, setVisible] = useState(true)
   const [leaving, setLeaving] = useState(false)
+  const onCloseRef = useRef(onClose)
+  onCloseRef.current = onClose
 
   useEffect(() => {
     const fadeTimer = setTimeout(() => setLeaving(true), duration - 400)
     const closeTimer = setTimeout(() => {
       setVisible(false)
-      onClose?.()
+      onCloseRef.current?.()
     }, duration)
     return () => {
       clearTimeout(fadeTimer)
       clearTimeout(closeTimer)
     }
-  }, [duration, onClose])
+  }, [duration])
 
   if (!visible) return null
 
